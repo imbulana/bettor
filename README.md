@@ -42,5 +42,8 @@ Once the win probabilities and payout odds are obtained from the previous steps 
 ```
 
 ```bash
-python3 solver.py --win-probs <sequence of win probs> --payout-odds <sequence of payout odds>
+python3 solver.py \
+  --budget <total budget> \
+  --win-probs <sequence of win probs> \
+  --payout-odds <sequence of payout odds>
 ```
