@@ -19,7 +19,7 @@ python3 -m pip install -r requirements.txt
 
 Once the win probabilities and payout odds are obtained from the previous steps (TODO), you can run the numerical solver to obtain an optimal portfolio given by following optimization problem
 
-$$ 
+```math
 \begin{aligned}
 
 & \underset{x\in\mathbb{R}^n}{\text{maximize}}
@@ -29,12 +29,9 @@ $$
 &&& x_i \;\ge\; 0,\quad i = 1,\dots,n.
 
 \end{aligned}
+```
 
-$$
-
-
-$$
-
+```math
 \begin{aligned}
 \text{where} \\
 & n = \text{ the number of games},\\
@@ -44,7 +41,7 @@ $$
 & o_i = \text{ the payout odds for game }i,\\
 & \lambda = \text{ the risk‐tradeoff parameter}.
 \end{aligned}
-$$
+```
 
 
 ```bash
