@@ -43,8 +43,6 @@ Once the win probabilities and payout odds are obtained from the previous steps 
 \end{aligned}
 ```
 
-
 ```bash
-
-
+python3 solver.py --win-probs <sequence of win probs> --payout-odds <sequence of payout odds>
 ```
