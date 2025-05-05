@@ -13,7 +13,9 @@ from sklearn.svm import SVC
 from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 
-def load_and_prepare_data(csv_file='total_data.csv'):
+import pickle as pkl
+
+def load_and_prepare_data(csv_file='data/total_data.csv'):
     """
     Loads and preprocesses the NBA game data.
 
@@ -331,6 +333,10 @@ if __name__ == "__main__":
         trained_model, report, auc_roc, avg_accuracy, y_test, y_pred, losses, X_test = train_and_evaluate_model(pipeline, nba_df, model_name, numerical_features)
         if trained_model is None:
             continue
+
+        # save model
+        with open(f'{model_name}_model.pkl', 'wb') as f:
+            pkl.dump(trained_model, f)
 
         # Plot ROC Curve
         plot_roc_curve(y_test, pipeline.predict_proba(X_test)[:, 1], model_name=model_name)
