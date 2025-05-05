@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load filtered dataset
-df = pd.read_csv('nba_odds_2023_2024_filtered.csv')
+df = pd.read_csv('data/nba_odds_2023_2024_filtered.csv')
 
 # Define moneyline to decimal conversion
 def moneyline_to_decimal(ml):
