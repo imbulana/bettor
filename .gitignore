@@ -3,3 +3,4 @@ drive*
 
 *.ipynb
 __pycache__
+*.pkl
