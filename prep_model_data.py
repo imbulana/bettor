@@ -1,13 +1,15 @@
 import pandas as pd
 
-# Load filtered dataset
-df = pd.read_csv('nba_odds_2023_2024_filtered.csv')
+# Load filtered dataset for 2022–23
+df = pd.read_csv('nba_odds_2022_2023_filtered.csv')
 
-# Define moneyline to decimal conversion
+# Drop rows where odds are still missing (just in case)
+df = df[df['moneyline_home'].notnull() & df['moneyline_away'].notnull()]
+
+# Convert moneyline to decimal payout odds
 def moneyline_to_decimal(ml):
     return (ml / 100 + 1) if ml > 0 else (100 / abs(ml)) + 1
 
-# Convert to decimal payout odds
 df['oi_home'] = df['moneyline_home'].apply(moneyline_to_decimal)
 df['oi_away'] = df['moneyline_away'].apply(moneyline_to_decimal)
 
@@ -19,8 +21,8 @@ df['pi_away'] = 1 / df['oi_away']
 df['pi_home'] /= (df['pi_home'] + df['pi_away'])
 df['pi_away'] = 1 - df['pi_home']
 
-# Save final model-ready format
-df[['game_date', 'home', 'away', 'pi_home', 'oi_home', 'pi_away', 'oi_away']].to_csv(
-    'nba_model_inputs.csv', index=False)
+# Save the model-ready dataset
+df[['date', 'home', 'away', 'pi_home', 'oi_home', 'pi_away', 'oi_away']].to_csv(
+    'nba_betting_odds_2021_2022.csv', index=False)
 
-print("Model-ready file saved as nba_model_inputs.csv")
+print(f"Model-ready file saved with {len(df)} games (2021–22 season)")
