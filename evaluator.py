@@ -1,5 +1,8 @@
+import sys
+import numpy as np
 import pandas as pd
 import pickle as pkl
+import matplotlib.pyplot as plt
 
 from model import predict_winner
 from solver import optimize
@@ -37,19 +40,18 @@ team_name = {
     'wsh': 'Washington Wizards'
 }
 
-def evaluate_betting_strategy(budget):
+def evaluate_betting_strategy(model, model_data, test_data, budget, trade_off=0.5):
 
     # load model
-    with open('random_forest_model.pkl', 'rb') as f:
+    with open(model, 'rb') as f:
         rf_model = pkl.load(f)
 
-    # load regular season data
-    nba_df = pd.read_csv('data/total_data.csv')
+    # load model data
+    nba_df = pd.read_csv(model_data)
     nba_df.dropna(inplace=True)
 
-    # load playoff data
-    playoff_df = pd.read_csv('data/nba_model_inputs.csv') 
-    playoff_df = playoff_df[playoff_df['playoff'] == True]
+    # load test data
+    playoff_df = pd.read_csv(test_data) 
 
     p_i = [] # win probabilities
     o_i = [] # payout odds
@@ -64,7 +66,9 @@ def evaluate_betting_strategy(budget):
         win_prob = predict_winner(
             rf_model, nba_df, team_name[home], team_name[away], predict_prob='Home'
         )
-        
+        if win_prob is None:
+            continue        
+
         choose_home_team = win_prob > 0.5
         home_team_wins = score_home > score_away
         
@@ -74,8 +78,8 @@ def evaluate_betting_strategy(budget):
         winning_team_chosen.append(choose_home_team == home_team_wins)
 
     n = len(p_i)
-    # TODO: add trade_off factor
-    bets, expected_profit = optimize(n, budget, p_i, o_i)
+    p_i, o_i = np.array(p_i), np.array(o_i)
+    bets, expected_profit = optimize(n, budget, p_i, o_i, trade_off)
 
     # calculate actual profit from betting strategy
     actual_profit = 0
@@ -91,3 +95,39 @@ def evaluate_betting_strategy(budget):
         'expected_profit': expected_profit,
         'winning_team_chosen': winning_team_chosen,
     }
+
+if __name__ == '__main__':
+    model = sys.argv[1] 
+    model_data = sys.argv[2]
+    test_data = sys.argv[3]
+    budget = float(sys.argv[4])
+
+    print(budget)
+
+    trade_offs = [i/20 for i in range(1, 21)]
+    actual_profits = []
+    expected_profits = []
+    for trade_off in trade_offs:
+        result = evaluate_betting_strategy(model, model_data, test_data, budget, trade_off)
+        actual_profits.append(result['actual_profit'])
+        expected_profits.append(result['expected_profit'])
+
+        n_games = len(result['winning_team_chosen'])
+        print(f"\nTrade-off: {trade_off}")
+        print(f"number of games: {n_games}")
+        print(f"Total bets: {sum(result['bets'])}")
+        print(f"Expected profit: {result['expected_profit']}")
+        print(f"Actual profit: {result['actual_profit']}")
+        print(f"winning bet percentage: {sum(result['winning_team_chosen'])/n_games}")
+
+    winning_percentage = sum(result['winning_team_chosen']) / len(result['winning_team_chosen']) * 100
+
+    plt.figure(figsize=(10, 6))
+    plt.plot(trade_offs, actual_profits, label='Actual Profit', marker='o')
+    plt.plot(trade_offs, expected_profits, label='Expected Profit', marker='x')
+    plt.xlabel('Trade-off Parameter')
+    plt.ylabel('Profit')
+    plt.title(f'Actual vs Expected Profit for Different Trade-off Parameters (Budget: $1000, winning bet percentage: {winning_percentage:.2f}%)')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
