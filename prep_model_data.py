@@ -1,7 +1,12 @@
 import pandas as pd
 
+<<<<<<< HEAD
 # Load filtered dataset for 2022–23
 df = pd.read_csv('nba_odds_2022_2023_filtered.csv')
+=======
+# Load filtered dataset
+df = pd.read_csv('data/nba_odds_2022_2023_filtered.csv')
+>>>>>>> 2d298e7e08d3f6367185d1bef404f664153fd62b
 
 # Drop rows where odds are still missing (just in case)
 df = df[df['moneyline_home'].notnull() & df['moneyline_away'].notnull()]

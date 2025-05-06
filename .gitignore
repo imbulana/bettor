@@ -1,0 +1,6 @@
+drive*
+.DS_Store
+
+*.ipynb
+__pycache__
+*.pkl

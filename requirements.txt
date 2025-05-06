@@ -1,1 +1,5 @@
 scipy
+pandas
+seaborn
+matplotlib
+scikit-learn
