@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load filtered dataset
-df = pd.read_csv('nba_odds_2023_2024_filtered.csv')
+df = pd.read_csv('data/nba_odds_2022_2023_filtered.csv')
 
 # Define moneyline to decimal conversion
 def moneyline_to_decimal(ml):
@@ -20,7 +20,7 @@ df['pi_home'] /= (df['pi_home'] + df['pi_away'])
 df['pi_away'] = 1 - df['pi_home']
 
 # Save final model-ready format
-df[['game_date', 'home', 'away', 'pi_home', 'oi_home', 'pi_away', 'oi_away']].to_csv(
+df[['game_date', 'playoffs', 'home', 'away', 'pi_home', 'oi_home', 'pi_away', 'oi_away']].to_csv(
     'nba_model_inputs.csv', index=False)
 
 print("Model-ready file saved as nba_model_inputs.csv")
