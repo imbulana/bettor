@@ -106,14 +106,14 @@ def train_and_evaluate_model(pipeline, df, model_name, numerical_features):
 
     Args:
         pipeline (Pipeline): The pre-built pipeline.
-        df (pd.DataFrame): The input DataFrame.
-        model_name (str): Name of the model
-        numerical_features (list):  List of numerical features.
+                df (pd.DataFrame): The input DataFrame.
+                model_name (str): Name of the model
+                numerical_features (list):  List of numerical features.
 
     Returns:
         tuple: (model, report, auc_roc, avg_accuracy, y_test, y_pred, losses)
-               Returns trained model, classification report, AUC-ROC score,
-               cross-validation accuracy, and y_test, y_pred, and losses
+                Returns trained model, classification report, AUC-ROC score,
+                cross-validation accuracy, and y_test, y_pred, and losses
     """
     if pipeline is None or df is None:
         return None, None, None, None, None, None, None
@@ -347,8 +347,8 @@ if __name__ == "__main__":
 
     # Example: Predict winner given home and away teams using the best model
     if best_model:
-        home_team = "Golden State Warriors"
-        away_team = "Houston Rockets"
+        home_team = "Houston Rockets"
+        away_team = "Golden State Warriors"
         predicted_probability = predict_winner(best_model, nba_df, home_team, away_team, predict_prob='Home')
         if predicted_probability is not None:
             print(f"Predicted probability of {home_team} winning (using {best_model_name}): {predicted_probability:.2f}")
