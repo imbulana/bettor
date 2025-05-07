@@ -318,7 +318,8 @@ if __name__ == "__main__":
         exit()
 
     # Models to compare
-    models = ['random_forest']
+    # models = ['logistic_regression', 'random_forest', 'gradient_boosting', 'svm', 'decision_tree']
+    models = ['logistic_regression']
     best_model = None
     best_auc_roc = 0
 
@@ -353,8 +354,8 @@ if __name__ == "__main__":
 
     # Example: Predict winner given home and away teams using the best model
     if best_model:
-        home_team = "Houston Rockets"
-        away_team = "Golden State Warriors"
+        home_team = "Atlanta Hawks"
+        away_team = "New York Knicks"
         predicted_probability = predict_winner(best_model, nba_df, home_team, away_team, predict_prob='Home')
         if predicted_probability is not None:
             print(f"Predicted probability of {home_team} winning (using {best_model_name}): {predicted_probability:.2f}")
@@ -365,3 +366,36 @@ if __name__ == "__main__":
         print(past_results[['Home_Team', 'Away_Team', 'Home_Team_Wins']])
     else:
         print("No model was trained successfully.")
+
+teams = [
+    'Atlanta Hawks', 'Boston Celtics', 'Brooklyn Nets', 'Charlotte Hornets', 'Chicago Bulls',
+    'Cleveland Cavaliers', 'Dallas Mavericks', 'Denver Nuggets', 'Detroit Pistons',
+    'Golden State Warriors', 'Houston Rockets', 'Indiana Pacers', 'Los Angeles Clippers',
+    'Los Angeles Lakers', 'Memphis Grizzlies', 'Miami Heat', 'Milwaukee Bucks',
+    'Minnesota Timberwolves', 'New Orleans Pelicans', 'New York Knicks',
+    'Oklahoma City Thunder', 'Orlando Magic', 'Philadelphia 76ers', 'Phoenix Suns',
+    'Portland Trail Blazers', 'Sacramento Kings', 'San Antonio Spurs', 'Toronto Raptors',
+    'Utah Jazz', 'Washington Wizards'
+]
+
+# Collect all rows in a list first
+results = []
+
+for home_team in teams:
+    for away_team in teams:
+        if home_team != away_team:
+            predicted_probability = predict_winner(best_model, nba_df, home_team, away_team, predict_prob='Home')
+            results.append({
+                'home_team': home_team,
+                'away_team': away_team,
+                'win_prob': predicted_probability
+            })
+
+# Convert to DataFrame
+data = pd.DataFrame(results)
+
+# Optionally format win_prob to 2 decimal places
+data['win_prob'] = data['win_prob'].round(2)
+
+# Save to CSV
+data.to_csv('win_prob.csv', index=False)
