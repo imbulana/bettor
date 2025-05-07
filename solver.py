@@ -3,7 +3,7 @@ import numpy as np
 from scipy.optimize import minimize, Bounds
 
 
-def optimize(n, B, trade_off, p_i, o_i):
+def optimize(n, B, p_i, o_i, trade_off=0.5):
     """
     Optimize betting strategy using the given parameters.
 
