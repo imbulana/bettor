@@ -15,7 +15,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 import pickle as pkl
 
-def load_and_prepare_data(csv_file='data/total_data.csv'):
+def load_and_prepare_data(csv_file='data/nba_22_23_pre_jan.csv'):
     """
     Loads and preprocesses the NBA game data.
 
@@ -318,6 +318,7 @@ if __name__ == "__main__":
         exit()
 
     # Models to compare
+    # models = ['random_forest', 'logistic_regression', 'gradient_boosting', 'svm', 'naive_bayes', 'decision_tree']
     models = ['random_forest']
     best_model = None
     best_auc_roc = 0

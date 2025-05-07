@@ -20,7 +20,7 @@ df['pi_home'] /= (df['pi_home'] + df['pi_away'])
 df['pi_away'] = 1 - df['pi_home']
 
 # Save final model-ready format
-df[['game_date', 'playoffs', 'home', 'away', 'pi_home', 'oi_home', 'pi_away', 'oi_away']].to_csv(
-    'nba_model_inputs.csv', index=False)
+df[['date', 'playoffs', 'home', 'away', 'score_home', 'score_away', 'pi_home', 'oi_home', 'pi_away', 'oi_away']].to_csv(
+    'data/nba_model_inputs.csv', index=False)
 
 print("Model-ready file saved as nba_model_inputs.csv")
