@@ -71,4 +71,6 @@ python3 evaluator.py <model> <model_data.csv> <test_data.csv> <budget>
 
 Testing on 22-23 regular season games. The model is trained on games before January '23 and tested on games during January '23
 
-<img src="plots/22-23.png" width="800px"></img>
+<img src="plots/percentage.png" width="800px"></img>
+<img src="plots/values.png" width="800px"></img>
+<img src="plots/bet_distribution.png" width="800px"></img>
