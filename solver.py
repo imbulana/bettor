@@ -83,8 +83,8 @@ def main():
     n_bets = len(win_probs)
     budget = args.budget
     trade_off = args.trade_off
-    
-    bets, profit = optimize(n_bets, budget, trade_off, win_probs, payout_odds)
+
+    bets, profit = optimize(n_bets, budget, win_probs, payout_odds, trade_off)
 
     print(f"Budget: {budget}")
     print("\nBet allocation:")
