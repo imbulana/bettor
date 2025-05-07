@@ -104,57 +104,95 @@ if __name__ == '__main__':
 
     print(budget)
 
-    trade_offs = [i/20 for i in range(1, 21)]
+    trade_offs = [0.25 * i for i in range(1, 10)]
     actual_profits = []
     expected_profits = []
     actual_profits_percentages = []
+    bet_amounts = []
+    total_bet_amounts = []
     for trade_off in trade_offs:
         result = evaluate_betting_strategy(model, model_data, test_data, budget, trade_off)
         actual_profits.append(result['actual_profit'])
         expected_profits.append(result['expected_profit'])
 
-        actual_profits_percentages.append(result['actual_profit'] / budget * 100)
+        total_bet_amount = sum(result['bets'])
+        total_bet_amounts.append(total_bet_amount)
+        bet_amounts.append(result['bets'])
+
+        # actual_profit_percent = result['actual_profit'] / total_bet_amount * 100
+        actual_profit_percent = result['actual_profit'] / budget * 100
+        actual_profits_percentages.append(actual_profit_percent)
 
         n_games = len(result['winning_team_chosen'])
         print(f"\nTrade-off: {trade_off}")
         print(f"number of games: {n_games}")
-        print(f"Total bets: {sum(result['bets'])}")
+        print(f"Total bets: {total_bet_amount}")
         print(f"Expected profit: {result['expected_profit']}")
         print(f"Actual profit: {result['actual_profit']}")
-        print(f"Actual profit percentage: {result['actual_profit'] / budget * 100:.2f}%")
+        print(f"Actual profit percentage: {actual_profit_percent:.2f}%")
         print(f"winning bet percentage: {sum(result['winning_team_chosen'])/n_games}")
 
     winning_percentage = sum(result['winning_team_chosen']) / len(result['winning_team_chosen']) * 100
 
+    # plotting actual profit percentage vs trade-off parameter
     plt.figure(figsize=(10, 6))
     plt.plot(trade_offs, actual_profits_percentages, label='Actual Profit Gain', marker='o')
-    # plt.plot(trade_offs, actual_profits, label='Actual Profit', marker='o')
-    # plt.plot(trade_offs, expected_profits, label='Expected Profit', marker='x')
-    plt.xlabel('Trade-off Parameter')
-    # plt.ylabel('Profit')
-    # plt.title(f'Actual vs Expected Profit for Varying Trade-off Parameters (Budget: ${budget}, winning bet percentage: {winning_percentage:.2f}%)')
+
+    for i, txt in enumerate(total_bet_amounts):
+        plt.annotate(
+            f'${txt:.0f}', 
+            (trade_offs[i], plt.ylim()[0]),
+            xytext=(0, -18),
+            textcoords='offset points',
+            ha='center',
+            va='top'
+        )
+
+    plt.xlabel('Trade-off Parameter and Total Bet Amount', labelpad=20)
     plt.ylabel('Profit Percentage')
-    plt.title(f'Profit Gain vs. Trade off parameter (Budget: ${budget}, winning bet percentage: {winning_percentage:.2f}%)')
+    plt.title(
+        f'Profit Gain vs. Trade off parameter (Budget: ${budget}, winning bet percentage: {winning_percentage:.2f}%)'
+    )
     plt.legend()
     plt.grid(True)
     plt.show()
 
-    #     n_games = len(result['winning_team_chosen'])
-    #     print(f"\nTrade-off: {trade_off}")
-    #     print(f"number of games: {n_games}")
-    #     print(f"Total bets: {sum(result['bets'])}")
-    #     print(f"Expected profit: {result['expected_profit']}")
-    #     print(f"Actual profit: {result['actual_profit']}")
-    #     print(f"winning bet percentage: {sum(result['winning_team_chosen'])/n_games}")
+    # plotting actual vs expected profit
+    plt.figure(figsize=(10, 6))
+    plt.plot(trade_offs, actual_profits, label='Actual Profit', marker='o')
+    plt.plot(trade_offs, expected_profits, label='Expected Profit', marker='x')
 
-    # winning_percentage = sum(result['winning_team_chosen']) / len(result['winning_team_chosen']) * 100
+    for i, txt in enumerate(total_bet_amounts):
+        plt.annotate(
+            f'${txt:.0f}', 
+            (trade_offs[i], plt.ylim()[0]),
+            xytext=(0, -18),
+            textcoords='offset points',
+            ha='center',
+            va='top'
+        )
 
-    # plt.figure(figsize=(10, 6))
-    # plt.plot(trade_offs, actual_profits, label='Actual Profit', marker='o')
-    # plt.plot(trade_offs, expected_profits, label='Expected Profit', marker='x')
-    # plt.xlabel('Trade-off Parameter')
-    # plt.ylabel('Profit')
-    # plt.title(f'Actual vs Expected Profit for Different Trade-off Parameters (Budget: $1000, winning bet percentage: {winning_percentage:.2f}%)')
-    # plt.legend()
-    # plt.grid(True)
-    # plt.show()
+    plt.xlabel('Trade-off Parameter and Total Bet Amount', labelpad=20)
+    plt.ylabel('Profit ($)')
+    plt.title(f'Actual vs Expected Profit for Different Trade-off Parameters (Budget: $1000, winning bet percentage: {winning_percentage:.2f}%)')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
+    # plotting bet amount distribution
+    plt.figure(figsize=(10, 6))
+    plt.violinplot(bet_amounts)
+    plt.boxplot(
+        bet_amounts, 
+        labels=[f'{t:.1f}' for t in trade_offs], 
+        widths=0.3,
+        patch_artist=True, 
+        boxprops=dict(facecolor='white', alpha=0.7),
+        medianprops=dict(color='red')
+    )
+    
+    plt.xlabel('Trade-off Parameter')
+    plt.ylabel('Bet Amount ($)')
+    plt.title('Distribution of Bet Amounts')
+    plt.grid(True)
+    plt.show()
