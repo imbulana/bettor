@@ -120,11 +120,13 @@ def train_and_evaluate_model(pipeline, df, model_name, numerical_features):
     if pipeline is None or df is None:
         return None, None, None, None, None, None, None
 
-    X = df.drop('Home_Team_Wins', axis=1)
-    y = df['Home_Team_Wins']
+    X_train = df.drop('Home_Team_Wins', axis=1)
+    y_train = df['Home_Team_Wins']
 
-    # Split data
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    # Load test data from CSV
+    test_df = pd.read_csv('data/test_data.csv')
+    X_test = test_df.drop('Home_Team_Wins', axis=1)
+    y_test = test_df['Home_Team_Wins']
 
     # Train model
     pipeline.fit(X_train, y_train)
@@ -138,7 +140,7 @@ def train_and_evaluate_model(pipeline, df, model_name, numerical_features):
     auc_roc = roc_auc_score(y_test, y_pred_proba)
 
     # Cross-validation
-    cv_scores = cross_val_score(pipeline, X, y, cv=10, scoring='accuracy')  # 10-fold CV
+    cv_scores = cross_val_score(pipeline, X_train, y_train, cv=10, scoring='accuracy')  # 10-fold CV
     avg_accuracy = cv_scores.mean()
 
     print(f"Model: {model_name}")
@@ -308,7 +310,7 @@ def get_past_results(df, home_team, away_team):
         pd.DataFrame: DataFrame containing past games between the two teams, or empty DataFrame if no matches found.
     """
     past_games = df[((df['Home_Team'] == home_team) & (df['Away_Team'] == away_team)) |
-                   ((df['Home_Team'] == away_team) & (df['Away_Team'] == home_team))]
+                    ((df['Home_Team'] == away_team) & (df['Away_Team'] == home_team))]
     return past_games
 
 if __name__ == "__main__":
@@ -318,8 +320,8 @@ if __name__ == "__main__":
         exit()
 
     # Models to compare
-    # models = ['logistic_regression', 'random_forest', 'gradient_boosting', 'svm', 'decision_tree']
-    models = ['logistic_regression']
+    models = ['logistic_regression', 'random_forest', 'gradient_boosting', 'svm', 'decision_tree']
+    # models = ['logistic_regression']
     best_model = None
     best_auc_roc = 0
 
