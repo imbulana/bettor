@@ -182,7 +182,7 @@ if __name__ == "__main__":
 
     plt.xlabel('Trade-off Parameter and Total Bet Amount', labelpad=20)
     plt.ylabel('Profit ($)')
-    plt.title(f'Actual vs Expected Profit for Different Trade-off Parameters (Budget: $1000, winning bet percentage: {winning_percentage:.2f}%)')
+    plt.title(f'Actual vs Expected Profit for Different Trade-off Parameters (Budget: {budget}, winning bet percentage: {winning_percentage:.2f}%)')
     plt.legend()
     plt.grid(True)
     plt.show()
