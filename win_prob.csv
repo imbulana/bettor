@@ -1,871 +1,871 @@
-home_team,away_team,win_prob
-Atlanta Hawks,Boston Celtics,0.33
-Atlanta Hawks,Brooklyn Nets,0.61
-Atlanta Hawks,Charlotte Hornets,0.41
-Atlanta Hawks,Chicago Bulls,0.29
-Atlanta Hawks,Cleveland Cavaliers,0.24
-Atlanta Hawks,Dallas Mavericks,0.56
-Atlanta Hawks,Denver Nuggets,0.5
-Atlanta Hawks,Detroit Pistons,0.24
-Atlanta Hawks,Golden State Warriors,0.29
-Atlanta Hawks,Houston Rockets,0.24
-Atlanta Hawks,Indiana Pacers,0.35
-Atlanta Hawks,Los Angeles Clippers,0.46
-Atlanta Hawks,Los Angeles Lakers,0.34
-Atlanta Hawks,Memphis Grizzlies,0.36
-Atlanta Hawks,Miami Heat,0.4
-Atlanta Hawks,Milwaukee Bucks,0.52
-Atlanta Hawks,Minnesota Timberwolves,0.23
-Atlanta Hawks,New Orleans Pelicans,0.29
-Atlanta Hawks,New York Knicks,0.43
-Atlanta Hawks,Oklahoma City Thunder,0.3
-Atlanta Hawks,Orlando Magic,0.31
-Atlanta Hawks,Philadelphia 76ers,0.41
-Atlanta Hawks,Phoenix Suns,0.54
-Atlanta Hawks,Portland Trail Blazers,0.51
-Atlanta Hawks,Sacramento Kings,0.29
-Atlanta Hawks,San Antonio Spurs,0.45
-Atlanta Hawks,Toronto Raptors,0.27
-Atlanta Hawks,Utah Jazz,0.44
-Atlanta Hawks,Washington Wizards,0.26
-Boston Celtics,Atlanta Hawks,0.5
-Boston Celtics,Brooklyn Nets,0.62
-Boston Celtics,Charlotte Hornets,0.29
-Boston Celtics,Chicago Bulls,0.44
-Boston Celtics,Cleveland Cavaliers,0.28
-Boston Celtics,Dallas Mavericks,0.61
-Boston Celtics,Denver Nuggets,0.58
-Boston Celtics,Detroit Pistons,0.29
-Boston Celtics,Golden State Warriors,0.35
-Boston Celtics,Houston Rockets,0.25
-Boston Celtics,Indiana Pacers,0.4
-Boston Celtics,Los Angeles Clippers,0.63
-Boston Celtics,Los Angeles Lakers,0.54
-Boston Celtics,Memphis Grizzlies,0.42
-Boston Celtics,Miami Heat,0.39
-Boston Celtics,Milwaukee Bucks,0.49
-Boston Celtics,Minnesota Timberwolves,0.25
-Boston Celtics,New Orleans Pelicans,0.34
-Boston Celtics,New York Knicks,0.42
-Boston Celtics,Oklahoma City Thunder,0.3
-Boston Celtics,Orlando Magic,0.29
-Boston Celtics,Philadelphia 76ers,0.59
-Boston Celtics,Phoenix Suns,0.69
-Boston Celtics,Portland Trail Blazers,0.51
-Boston Celtics,Sacramento Kings,0.33
-Boston Celtics,San Antonio Spurs,0.42
-Boston Celtics,Toronto Raptors,0.25
-Boston Celtics,Utah Jazz,0.51
-Boston Celtics,Washington Wizards,0.29
-Brooklyn Nets,Atlanta Hawks,0.29
-Brooklyn Nets,Boston Celtics,0.29
-Brooklyn Nets,Charlotte Hornets,0.29
-Brooklyn Nets,Chicago Bulls,0.29
-Brooklyn Nets,Cleveland Cavaliers,0.27
-Brooklyn Nets,Dallas Mavericks,0.36
-Brooklyn Nets,Denver Nuggets,0.32
-Brooklyn Nets,Detroit Pistons,0.27
-Brooklyn Nets,Golden State Warriors,0.27
-Brooklyn Nets,Houston Rockets,0.29
-Brooklyn Nets,Indiana Pacers,0.29
-Brooklyn Nets,Los Angeles Clippers,0.29
-Brooklyn Nets,Los Angeles Lakers,0.28
-Brooklyn Nets,Memphis Grizzlies,0.3
-Brooklyn Nets,Miami Heat,0.27
-Brooklyn Nets,Milwaukee Bucks,0.29
-Brooklyn Nets,Minnesota Timberwolves,0.29
-Brooklyn Nets,New Orleans Pelicans,0.27
-Brooklyn Nets,New York Knicks,0.29
-Brooklyn Nets,Oklahoma City Thunder,0.3
-Brooklyn Nets,Orlando Magic,0.29
-Brooklyn Nets,Philadelphia 76ers,0.27
-Brooklyn Nets,Phoenix Suns,0.35
-Brooklyn Nets,Portland Trail Blazers,0.36
-Brooklyn Nets,Sacramento Kings,0.28
-Brooklyn Nets,San Antonio Spurs,0.33
-Brooklyn Nets,Toronto Raptors,0.38
-Brooklyn Nets,Utah Jazz,0.28
-Brooklyn Nets,Washington Wizards,0.3
-Charlotte Hornets,Atlanta Hawks,0.56
-Charlotte Hornets,Boston Celtics,0.5
-Charlotte Hornets,Brooklyn Nets,0.58
-Charlotte Hornets,Chicago Bulls,0.49
-Charlotte Hornets,Cleveland Cavaliers,0.31
-Charlotte Hornets,Dallas Mavericks,0.63
-Charlotte Hornets,Denver Nuggets,0.6
-Charlotte Hornets,Detroit Pistons,0.34
-Charlotte Hornets,Golden State Warriors,0.43
-Charlotte Hornets,Houston Rockets,0.29
-Charlotte Hornets,Indiana Pacers,0.49
-Charlotte Hornets,Los Angeles Clippers,0.69
-Charlotte Hornets,Los Angeles Lakers,0.67
-Charlotte Hornets,Memphis Grizzlies,0.52
-Charlotte Hornets,Miami Heat,0.43
-Charlotte Hornets,Milwaukee Bucks,0.51
-Charlotte Hornets,Minnesota Timberwolves,0.29
-Charlotte Hornets,New Orleans Pelicans,0.37
-Charlotte Hornets,New York Knicks,0.55
-Charlotte Hornets,Oklahoma City Thunder,0.39
-Charlotte Hornets,Orlando Magic,0.37
-Charlotte Hornets,Philadelphia 76ers,0.7
-Charlotte Hornets,Phoenix Suns,0.71
-Charlotte Hornets,Portland Trail Blazers,0.51
-Charlotte Hornets,Sacramento Kings,0.35
-Charlotte Hornets,San Antonio Spurs,0.49
-Charlotte Hornets,Toronto Raptors,0.25
-Charlotte Hornets,Utah Jazz,0.6
-Charlotte Hornets,Washington Wizards,0.34
-Chicago Bulls,Atlanta Hawks,0.66
-Chicago Bulls,Boston Celtics,0.65
-Chicago Bulls,Brooklyn Nets,0.71
-Chicago Bulls,Charlotte Hornets,0.44
-Chicago Bulls,Cleveland Cavaliers,0.3
-Chicago Bulls,Dallas Mavericks,0.73
-Chicago Bulls,Denver Nuggets,0.73
-Chicago Bulls,Detroit Pistons,0.35
-Chicago Bulls,Golden State Warriors,0.62
-Chicago Bulls,Houston Rockets,0.29
-Chicago Bulls,Indiana Pacers,0.63
-Chicago Bulls,Los Angeles Clippers,0.75
-Chicago Bulls,Los Angeles Lakers,0.71
-Chicago Bulls,Memphis Grizzlies,0.66
-Chicago Bulls,Miami Heat,0.57
-Chicago Bulls,Milwaukee Bucks,0.63
-Chicago Bulls,Minnesota Timberwolves,0.34
-Chicago Bulls,New Orleans Pelicans,0.46
-Chicago Bulls,New York Knicks,0.62
-Chicago Bulls,Oklahoma City Thunder,0.32
-Chicago Bulls,Orlando Magic,0.34
-Chicago Bulls,Philadelphia 76ers,0.79
-Chicago Bulls,Phoenix Suns,0.78
-Chicago Bulls,Portland Trail Blazers,0.67
-Chicago Bulls,Sacramento Kings,0.46
-Chicago Bulls,San Antonio Spurs,0.59
-Chicago Bulls,Toronto Raptors,0.37
-Chicago Bulls,Utah Jazz,0.64
-Chicago Bulls,Washington Wizards,0.51
-Cleveland Cavaliers,Atlanta Hawks,0.56
-Cleveland Cavaliers,Boston Celtics,0.55
-Cleveland Cavaliers,Brooklyn Nets,0.57
-Cleveland Cavaliers,Charlotte Hornets,0.6
-Cleveland Cavaliers,Chicago Bulls,0.5
-Cleveland Cavaliers,Dallas Mavericks,0.63
-Cleveland Cavaliers,Denver Nuggets,0.66
-Cleveland Cavaliers,Detroit Pistons,0.45
-Cleveland Cavaliers,Golden State Warriors,0.64
-Cleveland Cavaliers,Houston Rockets,0.58
-Cleveland Cavaliers,Indiana Pacers,0.7
-Cleveland Cavaliers,Los Angeles Clippers,0.64
-Cleveland Cavaliers,Los Angeles Lakers,0.65
-Cleveland Cavaliers,Memphis Grizzlies,0.67
-Cleveland Cavaliers,Miami Heat,0.63
-Cleveland Cavaliers,Milwaukee Bucks,0.67
-Cleveland Cavaliers,Minnesota Timberwolves,0.59
-Cleveland Cavaliers,New Orleans Pelicans,0.6
-Cleveland Cavaliers,New York Knicks,0.64
-Cleveland Cavaliers,Oklahoma City Thunder,0.67
-Cleveland Cavaliers,Orlando Magic,0.63
-Cleveland Cavaliers,Philadelphia 76ers,0.67
-Cleveland Cavaliers,Phoenix Suns,0.63
-Cleveland Cavaliers,Portland Trail Blazers,0.65
-Cleveland Cavaliers,Sacramento Kings,0.66
-Cleveland Cavaliers,San Antonio Spurs,0.68
-Cleveland Cavaliers,Toronto Raptors,0.39
-Cleveland Cavaliers,Utah Jazz,0.6
-Cleveland Cavaliers,Washington Wizards,0.64
-Dallas Mavericks,Atlanta Hawks,0.4
-Dallas Mavericks,Boston Celtics,0.39
-Dallas Mavericks,Brooklyn Nets,0.56
-Dallas Mavericks,Charlotte Hornets,0.32
-Dallas Mavericks,Chicago Bulls,0.37
-Dallas Mavericks,Cleveland Cavaliers,0.28
-Dallas Mavericks,Denver Nuggets,0.53
-Dallas Mavericks,Detroit Pistons,0.29
-Dallas Mavericks,Golden State Warriors,0.31
-Dallas Mavericks,Houston Rockets,0.28
-Dallas Mavericks,Indiana Pacers,0.42
-Dallas Mavericks,Los Angeles Clippers,0.56
-Dallas Mavericks,Los Angeles Lakers,0.36
-Dallas Mavericks,Memphis Grizzlies,0.34
-Dallas Mavericks,Miami Heat,0.34
-Dallas Mavericks,Milwaukee Bucks,0.39
-Dallas Mavericks,Minnesota Timberwolves,0.29
-Dallas Mavericks,New Orleans Pelicans,0.27
-Dallas Mavericks,New York Knicks,0.37
-Dallas Mavericks,Oklahoma City Thunder,0.29
-Dallas Mavericks,Orlando Magic,0.28
-Dallas Mavericks,Philadelphia 76ers,0.47
-Dallas Mavericks,Phoenix Suns,0.64
-Dallas Mavericks,Portland Trail Blazers,0.46
-Dallas Mavericks,Sacramento Kings,0.35
-Dallas Mavericks,San Antonio Spurs,0.41
-Dallas Mavericks,Toronto Raptors,0.24
-Dallas Mavericks,Utah Jazz,0.43
-Dallas Mavericks,Washington Wizards,0.33
-Denver Nuggets,Atlanta Hawks,0.31
-Denver Nuggets,Boston Celtics,0.35
-Denver Nuggets,Brooklyn Nets,0.5
-Denver Nuggets,Charlotte Hornets,0.29
-Denver Nuggets,Chicago Bulls,0.29
-Denver Nuggets,Cleveland Cavaliers,0.27
-Denver Nuggets,Dallas Mavericks,0.46
-Denver Nuggets,Detroit Pistons,0.24
-Denver Nuggets,Golden State Warriors,0.27
-Denver Nuggets,Houston Rockets,0.27
-Denver Nuggets,Indiana Pacers,0.29
-Denver Nuggets,Los Angeles Clippers,0.47
-Denver Nuggets,Los Angeles Lakers,0.31
-Denver Nuggets,Memphis Grizzlies,0.29
-Denver Nuggets,Miami Heat,0.3
-Denver Nuggets,Milwaukee Bucks,0.38
-Denver Nuggets,Minnesota Timberwolves,0.26
-Denver Nuggets,New Orleans Pelicans,0.29
-Denver Nuggets,New York Knicks,0.3
-Denver Nuggets,Oklahoma City Thunder,0.28
-Denver Nuggets,Orlando Magic,0.27
-Denver Nuggets,Philadelphia 76ers,0.38
-Denver Nuggets,Phoenix Suns,0.53
-Denver Nuggets,Portland Trail Blazers,0.37
-Denver Nuggets,Sacramento Kings,0.28
-Denver Nuggets,San Antonio Spurs,0.3
-Denver Nuggets,Toronto Raptors,0.29
-Denver Nuggets,Utah Jazz,0.36
-Denver Nuggets,Washington Wizards,0.28
-Detroit Pistons,Atlanta Hawks,0.62
-Detroit Pistons,Boston Celtics,0.57
-Detroit Pistons,Brooklyn Nets,0.67
-Detroit Pistons,Charlotte Hornets,0.58
-Detroit Pistons,Chicago Bulls,0.53
-Detroit Pistons,Cleveland Cavaliers,0.4
-Detroit Pistons,Dallas Mavericks,0.7
-Detroit Pistons,Denver Nuggets,0.69
-Detroit Pistons,Golden State Warriors,0.61
-Detroit Pistons,Houston Rockets,0.46
-Detroit Pistons,Indiana Pacers,0.67
-Detroit Pistons,Los Angeles Clippers,0.7
-Detroit Pistons,Los Angeles Lakers,0.67
-Detroit Pistons,Memphis Grizzlies,0.65
-Detroit Pistons,Miami Heat,0.63
-Detroit Pistons,Milwaukee Bucks,0.68
-Detroit Pistons,Minnesota Timberwolves,0.48
-Detroit Pistons,New Orleans Pelicans,0.55
-Detroit Pistons,New York Knicks,0.67
-Detroit Pistons,Oklahoma City Thunder,0.55
-Detroit Pistons,Orlando Magic,0.51
-Detroit Pistons,Philadelphia 76ers,0.72
-Detroit Pistons,Phoenix Suns,0.7
-Detroit Pistons,Portland Trail Blazers,0.67
-Detroit Pistons,Sacramento Kings,0.59
-Detroit Pistons,San Antonio Spurs,0.66
-Detroit Pistons,Toronto Raptors,0.32
-Detroit Pistons,Utah Jazz,0.67
-Detroit Pistons,Washington Wizards,0.53
-Golden State Warriors,Atlanta Hawks,0.57
-Golden State Warriors,Boston Celtics,0.49
-Golden State Warriors,Brooklyn Nets,0.56
-Golden State Warriors,Charlotte Hornets,0.26
-Golden State Warriors,Chicago Bulls,0.47
-Golden State Warriors,Cleveland Cavaliers,0.25
-Golden State Warriors,Dallas Mavericks,0.58
-Golden State Warriors,Denver Nuggets,0.48
-Golden State Warriors,Detroit Pistons,0.29
-Golden State Warriors,Houston Rockets,0.22
-Golden State Warriors,Indiana Pacers,0.49
-Golden State Warriors,Los Angeles Clippers,0.61
-Golden State Warriors,Los Angeles Lakers,0.62
-Golden State Warriors,Memphis Grizzlies,0.48
-Golden State Warriors,Miami Heat,0.33
-Golden State Warriors,Milwaukee Bucks,0.43
-Golden State Warriors,Minnesota Timberwolves,0.25
-Golden State Warriors,New Orleans Pelicans,0.31
-Golden State Warriors,New York Knicks,0.54
-Golden State Warriors,Oklahoma City Thunder,0.23
-Golden State Warriors,Orlando Magic,0.24
-Golden State Warriors,Philadelphia 76ers,0.67
-Golden State Warriors,Phoenix Suns,0.65
-Golden State Warriors,Portland Trail Blazers,0.47
-Golden State Warriors,Sacramento Kings,0.29
-Golden State Warriors,San Antonio Spurs,0.4
-Golden State Warriors,Toronto Raptors,0.3
-Golden State Warriors,Utah Jazz,0.54
-Golden State Warriors,Washington Wizards,0.38
-Houston Rockets,Atlanta Hawks,0.67
-Houston Rockets,Boston Celtics,0.67
-Houston Rockets,Brooklyn Nets,0.61
-Houston Rockets,Charlotte Hornets,0.67
-Houston Rockets,Chicago Bulls,0.67
-Houston Rockets,Cleveland Cavaliers,0.62
-Houston Rockets,Dallas Mavericks,0.67
-Houston Rockets,Denver Nuggets,0.69
-Houston Rockets,Detroit Pistons,0.64
-Houston Rockets,Golden State Warriors,0.62
-Houston Rockets,Indiana Pacers,0.7
-Houston Rockets,Los Angeles Clippers,0.68
-Houston Rockets,Los Angeles Lakers,0.75
-Houston Rockets,Memphis Grizzlies,0.72
-Houston Rockets,Miami Heat,0.67
-Houston Rockets,Milwaukee Bucks,0.6
-Houston Rockets,Minnesota Timberwolves,0.64
-Houston Rockets,New Orleans Pelicans,0.66
-Houston Rockets,New York Knicks,0.65
-Houston Rockets,Oklahoma City Thunder,0.65
-Houston Rockets,Orlando Magic,0.6
-Houston Rockets,Philadelphia 76ers,0.72
-Houston Rockets,Phoenix Suns,0.67
-Houston Rockets,Portland Trail Blazers,0.62
-Houston Rockets,Sacramento Kings,0.61
-Houston Rockets,San Antonio Spurs,0.68
-Houston Rockets,Toronto Raptors,0.46
-Houston Rockets,Utah Jazz,0.68
-Houston Rockets,Washington Wizards,0.58
-Indiana Pacers,Atlanta Hawks,0.67
-Indiana Pacers,Boston Celtics,0.6
-Indiana Pacers,Brooklyn Nets,0.73
-Indiana Pacers,Charlotte Hornets,0.52
-Indiana Pacers,Chicago Bulls,0.55
-Indiana Pacers,Cleveland Cavaliers,0.27
-Indiana Pacers,Dallas Mavericks,0.7
-Indiana Pacers,Denver Nuggets,0.67
-Indiana Pacers,Detroit Pistons,0.29
-Indiana Pacers,Golden State Warriors,0.53
-Indiana Pacers,Houston Rockets,0.26
-Indiana Pacers,Los Angeles Clippers,0.67
-Indiana Pacers,Los Angeles Lakers,0.69
-Indiana Pacers,Memphis Grizzlies,0.65
-Indiana Pacers,Miami Heat,0.59
-Indiana Pacers,Milwaukee Bucks,0.7
-Indiana Pacers,Minnesota Timberwolves,0.29
-Indiana Pacers,New Orleans Pelicans,0.54
-Indiana Pacers,New York Knicks,0.56
-Indiana Pacers,Oklahoma City Thunder,0.29
-Indiana Pacers,Orlando Magic,0.29
-Indiana Pacers,Philadelphia 76ers,0.71
-Indiana Pacers,Phoenix Suns,0.72
-Indiana Pacers,Portland Trail Blazers,0.69
-Indiana Pacers,Sacramento Kings,0.43
-Indiana Pacers,San Antonio Spurs,0.55
-Indiana Pacers,Toronto Raptors,0.42
-Indiana Pacers,Utah Jazz,0.61
-Indiana Pacers,Washington Wizards,0.41
-Los Angeles Clippers,Atlanta Hawks,0.29
-Los Angeles Clippers,Boston Celtics,0.37
-Los Angeles Clippers,Brooklyn Nets,0.46
-Los Angeles Clippers,Charlotte Hornets,0.26
-Los Angeles Clippers,Chicago Bulls,0.31
-Los Angeles Clippers,Cleveland Cavaliers,0.29
-Los Angeles Clippers,Dallas Mavericks,0.46
-Los Angeles Clippers,Denver Nuggets,0.49
-Los Angeles Clippers,Detroit Pistons,0.28
-Los Angeles Clippers,Golden State Warriors,0.27
-Los Angeles Clippers,Houston Rockets,0.29
-Los Angeles Clippers,Indiana Pacers,0.29
-Los Angeles Clippers,Los Angeles Lakers,0.28
-Los Angeles Clippers,Memphis Grizzlies,0.27
-Los Angeles Clippers,Miami Heat,0.29
-Los Angeles Clippers,Milwaukee Bucks,0.29
-Los Angeles Clippers,Minnesota Timberwolves,0.28
-Los Angeles Clippers,New Orleans Pelicans,0.26
-Los Angeles Clippers,New York Knicks,0.31
-Los Angeles Clippers,Oklahoma City Thunder,0.29
-Los Angeles Clippers,Orlando Magic,0.29
-Los Angeles Clippers,Philadelphia 76ers,0.34
-Los Angeles Clippers,Phoenix Suns,0.49
-Los Angeles Clippers,Portland Trail Blazers,0.3
-Los Angeles Clippers,Sacramento Kings,0.28
-Los Angeles Clippers,San Antonio Spurs,0.3
-Los Angeles Clippers,Toronto Raptors,0.29
-Los Angeles Clippers,Utah Jazz,0.34
-Los Angeles Clippers,Washington Wizards,0.29
-Los Angeles Lakers,Atlanta Hawks,0.48
-Los Angeles Lakers,Boston Celtics,0.44
-Los Angeles Lakers,Brooklyn Nets,0.65
-Los Angeles Lakers,Charlotte Hornets,0.34
-Los Angeles Lakers,Chicago Bulls,0.33
-Los Angeles Lakers,Cleveland Cavaliers,0.25
-Los Angeles Lakers,Dallas Mavericks,0.6
-Los Angeles Lakers,Denver Nuggets,0.55
-Los Angeles Lakers,Detroit Pistons,0.23
-Los Angeles Lakers,Golden State Warriors,0.51
-Los Angeles Lakers,Houston Rockets,0.25
-Los Angeles Lakers,Indiana Pacers,0.47
-Los Angeles Lakers,Los Angeles Clippers,0.59
-Los Angeles Lakers,Memphis Grizzlies,0.45
-Los Angeles Lakers,Miami Heat,0.41
-Los Angeles Lakers,Milwaukee Bucks,0.62
-Los Angeles Lakers,Minnesota Timberwolves,0.27
-Los Angeles Lakers,New Orleans Pelicans,0.34
-Los Angeles Lakers,New York Knicks,0.49
-Los Angeles Lakers,Oklahoma City Thunder,0.29
-Los Angeles Lakers,Orlando Magic,0.29
-Los Angeles Lakers,Philadelphia 76ers,0.67
-Los Angeles Lakers,Phoenix Suns,0.67
-Los Angeles Lakers,Portland Trail Blazers,0.59
-Los Angeles Lakers,Sacramento Kings,0.42
-Los Angeles Lakers,San Antonio Spurs,0.46
-Los Angeles Lakers,Toronto Raptors,0.26
-Los Angeles Lakers,Utah Jazz,0.48
-Los Angeles Lakers,Washington Wizards,0.39
-Memphis Grizzlies,Atlanta Hawks,0.6
-Memphis Grizzlies,Boston Celtics,0.5
-Memphis Grizzlies,Brooklyn Nets,0.65
-Memphis Grizzlies,Charlotte Hornets,0.48
-Memphis Grizzlies,Chicago Bulls,0.43
-Memphis Grizzlies,Cleveland Cavaliers,0.29
-Memphis Grizzlies,Dallas Mavericks,0.63
-Memphis Grizzlies,Denver Nuggets,0.65
-Memphis Grizzlies,Detroit Pistons,0.28
-Memphis Grizzlies,Golden State Warriors,0.45
-Memphis Grizzlies,Houston Rockets,0.28
-Memphis Grizzlies,Indiana Pacers,0.5
-Memphis Grizzlies,Los Angeles Clippers,0.6
-Memphis Grizzlies,Los Angeles Lakers,0.65
-Memphis Grizzlies,Miami Heat,0.58
-Memphis Grizzlies,Milwaukee Bucks,0.67
-Memphis Grizzlies,Minnesota Timberwolves,0.3
-Memphis Grizzlies,New Orleans Pelicans,0.48
-Memphis Grizzlies,New York Knicks,0.58
-Memphis Grizzlies,Oklahoma City Thunder,0.31
-Memphis Grizzlies,Orlando Magic,0.34
-Memphis Grizzlies,Philadelphia 76ers,0.65
-Memphis Grizzlies,Phoenix Suns,0.66
-Memphis Grizzlies,Portland Trail Blazers,0.65
-Memphis Grizzlies,Sacramento Kings,0.44
-Memphis Grizzlies,San Antonio Spurs,0.56
-Memphis Grizzlies,Toronto Raptors,0.41
-Memphis Grizzlies,Utah Jazz,0.54
-Memphis Grizzlies,Washington Wizards,0.35
-Miami Heat,Atlanta Hawks,0.46
-Miami Heat,Boston Celtics,0.47
-Miami Heat,Brooklyn Nets,0.54
-Miami Heat,Charlotte Hornets,0.34
-Miami Heat,Chicago Bulls,0.38
-Miami Heat,Cleveland Cavaliers,0.27
-Miami Heat,Dallas Mavericks,0.59
-Miami Heat,Denver Nuggets,0.59
-Miami Heat,Detroit Pistons,0.29
-Miami Heat,Golden State Warriors,0.42
-Miami Heat,Houston Rockets,0.29
-Miami Heat,Indiana Pacers,0.48
-Miami Heat,Los Angeles Clippers,0.65
-Miami Heat,Los Angeles Lakers,0.47
-Miami Heat,Memphis Grizzlies,0.42
-Miami Heat,Milwaukee Bucks,0.44
-Miami Heat,Minnesota Timberwolves,0.31
-Miami Heat,New Orleans Pelicans,0.32
-Miami Heat,New York Knicks,0.46
-Miami Heat,Oklahoma City Thunder,0.29
-Miami Heat,Orlando Magic,0.28
-Miami Heat,Philadelphia 76ers,0.64
-Miami Heat,Phoenix Suns,0.68
-Miami Heat,Portland Trail Blazers,0.48
-Miami Heat,Sacramento Kings,0.35
-Miami Heat,San Antonio Spurs,0.4
-Miami Heat,Toronto Raptors,0.27
-Miami Heat,Utah Jazz,0.51
-Miami Heat,Washington Wizards,0.37
-Milwaukee Bucks,Atlanta Hawks,0.3
-Milwaukee Bucks,Boston Celtics,0.32
-Milwaukee Bucks,Brooklyn Nets,0.3
-Milwaukee Bucks,Charlotte Hornets,0.37
-Milwaukee Bucks,Chicago Bulls,0.29
-Milwaukee Bucks,Cleveland Cavaliers,0.29
-Milwaukee Bucks,Dallas Mavericks,0.32
-Milwaukee Bucks,Denver Nuggets,0.37
-Milwaukee Bucks,Detroit Pistons,0.27
-Milwaukee Bucks,Golden State Warriors,0.28
-Milwaukee Bucks,Houston Rockets,0.3
-Milwaukee Bucks,Indiana Pacers,0.29
-Milwaukee Bucks,Los Angeles Clippers,0.29
-Milwaukee Bucks,Los Angeles Lakers,0.4
-Milwaukee Bucks,Memphis Grizzlies,0.36
-Milwaukee Bucks,Miami Heat,0.4
-Milwaukee Bucks,Minnesota Timberwolves,0.29
-Milwaukee Bucks,New Orleans Pelicans,0.29
-Milwaukee Bucks,New York Knicks,0.39
-Milwaukee Bucks,Oklahoma City Thunder,0.29
-Milwaukee Bucks,Orlando Magic,0.31
-Milwaukee Bucks,Philadelphia 76ers,0.29
-Milwaukee Bucks,Phoenix Suns,0.33
-Milwaukee Bucks,Portland Trail Blazers,0.3
-Milwaukee Bucks,Sacramento Kings,0.25
-Milwaukee Bucks,San Antonio Spurs,0.29
-Milwaukee Bucks,Toronto Raptors,0.52
-Milwaukee Bucks,Utah Jazz,0.29
-Milwaukee Bucks,Washington Wizards,0.29
-Minnesota Timberwolves,Atlanta Hawks,0.68
-Minnesota Timberwolves,Boston Celtics,0.58
-Minnesota Timberwolves,Brooklyn Nets,0.67
-Minnesota Timberwolves,Charlotte Hornets,0.59
-Minnesota Timberwolves,Chicago Bulls,0.59
-Minnesota Timberwolves,Cleveland Cavaliers,0.41
-Minnesota Timberwolves,Dallas Mavericks,0.67
-Minnesota Timberwolves,Denver Nuggets,0.67
-Minnesota Timberwolves,Detroit Pistons,0.44
-Minnesota Timberwolves,Golden State Warriors,0.52
-Minnesota Timberwolves,Houston Rockets,0.44
-Minnesota Timberwolves,Indiana Pacers,0.65
-Minnesota Timberwolves,Los Angeles Clippers,0.67
-Minnesota Timberwolves,Los Angeles Lakers,0.73
-Minnesota Timberwolves,Memphis Grizzlies,0.68
-Minnesota Timberwolves,Miami Heat,0.61
-Minnesota Timberwolves,Milwaukee Bucks,0.67
-Minnesota Timberwolves,New Orleans Pelicans,0.57
-Minnesota Timberwolves,New York Knicks,0.6
-Minnesota Timberwolves,Oklahoma City Thunder,0.53
-Minnesota Timberwolves,Orlando Magic,0.51
-Minnesota Timberwolves,Philadelphia 76ers,0.7
-Minnesota Timberwolves,Phoenix Suns,0.68
-Minnesota Timberwolves,Portland Trail Blazers,0.67
-Minnesota Timberwolves,Sacramento Kings,0.54
-Minnesota Timberwolves,San Antonio Spurs,0.65
-Minnesota Timberwolves,Toronto Raptors,0.4
-Minnesota Timberwolves,Utah Jazz,0.66
-Minnesota Timberwolves,Washington Wizards,0.47
-New Orleans Pelicans,Atlanta Hawks,0.46
-New Orleans Pelicans,Boston Celtics,0.31
-New Orleans Pelicans,Brooklyn Nets,0.54
-New Orleans Pelicans,Charlotte Hornets,0.65
-New Orleans Pelicans,Chicago Bulls,0.32
-New Orleans Pelicans,Cleveland Cavaliers,0.32
-New Orleans Pelicans,Dallas Mavericks,0.49
-New Orleans Pelicans,Denver Nuggets,0.44
-New Orleans Pelicans,Detroit Pistons,0.29
-New Orleans Pelicans,Golden State Warriors,0.33
-New Orleans Pelicans,Houston Rockets,0.35
-New Orleans Pelicans,Indiana Pacers,0.48
-New Orleans Pelicans,Los Angeles Clippers,0.33
-New Orleans Pelicans,Los Angeles Lakers,0.39
-New Orleans Pelicans,Memphis Grizzlies,0.48
-New Orleans Pelicans,Miami Heat,0.57
-New Orleans Pelicans,Milwaukee Bucks,0.6
-New Orleans Pelicans,Minnesota Timberwolves,0.36
-New Orleans Pelicans,New York Knicks,0.57
-New Orleans Pelicans,Oklahoma City Thunder,0.46
-New Orleans Pelicans,Orlando Magic,0.54
-New Orleans Pelicans,Philadelphia 76ers,0.38
-New Orleans Pelicans,Phoenix Suns,0.39
-New Orleans Pelicans,Portland Trail Blazers,0.67
-New Orleans Pelicans,Sacramento Kings,0.51
-New Orleans Pelicans,San Antonio Spurs,0.64
-New Orleans Pelicans,Toronto Raptors,0.37
-New Orleans Pelicans,Utah Jazz,0.39
-New Orleans Pelicans,Washington Wizards,0.33
-New York Knicks,Atlanta Hawks,0.39
-New York Knicks,Boston Celtics,0.5
-New York Knicks,Brooklyn Nets,0.6
-New York Knicks,Charlotte Hornets,0.35
-New York Knicks,Chicago Bulls,0.29
-New York Knicks,Cleveland Cavaliers,0.24
-New York Knicks,Dallas Mavericks,0.66
-New York Knicks,Denver Nuggets,0.67
-New York Knicks,Detroit Pistons,0.22
-New York Knicks,Golden State Warriors,0.47
-New York Knicks,Houston Rockets,0.25
-New York Knicks,Indiana Pacers,0.3
-New York Knicks,Los Angeles Clippers,0.66
-New York Knicks,Los Angeles Lakers,0.5
-New York Knicks,Memphis Grizzlies,0.38
-New York Knicks,Miami Heat,0.58
-New York Knicks,Milwaukee Bucks,0.49
-New York Knicks,Minnesota Timberwolves,0.21
-New York Knicks,New Orleans Pelicans,0.29
-New York Knicks,Oklahoma City Thunder,0.32
-New York Knicks,Orlando Magic,0.29
-New York Knicks,Philadelphia 76ers,0.67
-New York Knicks,Phoenix Suns,0.69
-New York Knicks,Portland Trail Blazers,0.41
-New York Knicks,Sacramento Kings,0.25
-New York Knicks,San Antonio Spurs,0.32
-New York Knicks,Toronto Raptors,0.29
-New York Knicks,Utah Jazz,0.54
-New York Knicks,Washington Wizards,0.29
-Oklahoma City Thunder,Atlanta Hawks,0.64
-Oklahoma City Thunder,Boston Celtics,0.67
-Oklahoma City Thunder,Brooklyn Nets,0.59
-Oklahoma City Thunder,Charlotte Hornets,0.67
-Oklahoma City Thunder,Chicago Bulls,0.61
-Oklahoma City Thunder,Cleveland Cavaliers,0.62
-Oklahoma City Thunder,Dallas Mavericks,0.67
-Oklahoma City Thunder,Denver Nuggets,0.68
-Oklahoma City Thunder,Detroit Pistons,0.62
-Oklahoma City Thunder,Golden State Warriors,0.67
-Oklahoma City Thunder,Houston Rockets,0.65
-Oklahoma City Thunder,Indiana Pacers,0.72
-Oklahoma City Thunder,Los Angeles Clippers,0.64
-Oklahoma City Thunder,Los Angeles Lakers,0.7
-Oklahoma City Thunder,Memphis Grizzlies,0.72
-Oklahoma City Thunder,Miami Heat,0.68
-Oklahoma City Thunder,Milwaukee Bucks,0.6
-Oklahoma City Thunder,Minnesota Timberwolves,0.66
-Oklahoma City Thunder,New Orleans Pelicans,0.67
-Oklahoma City Thunder,New York Knicks,0.67
-Oklahoma City Thunder,Orlando Magic,0.67
-Oklahoma City Thunder,Philadelphia 76ers,0.69
-Oklahoma City Thunder,Phoenix Suns,0.63
-Oklahoma City Thunder,Portland Trail Blazers,0.67
-Oklahoma City Thunder,Sacramento Kings,0.68
-Oklahoma City Thunder,San Antonio Spurs,0.69
-Oklahoma City Thunder,Toronto Raptors,0.48
-Oklahoma City Thunder,Utah Jazz,0.63
-Oklahoma City Thunder,Washington Wizards,0.67
-Orlando Magic,Atlanta Hawks,0.65
-Orlando Magic,Boston Celtics,0.65
-Orlando Magic,Brooklyn Nets,0.62
-Orlando Magic,Charlotte Hornets,0.63
-Orlando Magic,Chicago Bulls,0.58
-Orlando Magic,Cleveland Cavaliers,0.46
-Orlando Magic,Dallas Mavericks,0.67
-Orlando Magic,Denver Nuggets,0.69
-Orlando Magic,Detroit Pistons,0.5
-Orlando Magic,Golden State Warriors,0.65
-Orlando Magic,Houston Rockets,0.63
-Orlando Magic,Indiana Pacers,0.7
-Orlando Magic,Los Angeles Clippers,0.66
-Orlando Magic,Los Angeles Lakers,0.68
-Orlando Magic,Memphis Grizzlies,0.72
-Orlando Magic,Miami Heat,0.67
-Orlando Magic,Milwaukee Bucks,0.67
-Orlando Magic,Minnesota Timberwolves,0.63
-Orlando Magic,New Orleans Pelicans,0.67
-Orlando Magic,New York Knicks,0.62
-Orlando Magic,Oklahoma City Thunder,0.67
-Orlando Magic,Philadelphia 76ers,0.67
-Orlando Magic,Phoenix Suns,0.64
-Orlando Magic,Portland Trail Blazers,0.68
-Orlando Magic,Sacramento Kings,0.67
-Orlando Magic,San Antonio Spurs,0.67
-Orlando Magic,Toronto Raptors,0.5
-Orlando Magic,Utah Jazz,0.63
-Orlando Magic,Washington Wizards,0.67
-Philadelphia 76ers,Atlanta Hawks,0.29
-Philadelphia 76ers,Boston Celtics,0.28
-Philadelphia 76ers,Brooklyn Nets,0.46
-Philadelphia 76ers,Charlotte Hornets,0.29
-Philadelphia 76ers,Chicago Bulls,0.22
-Philadelphia 76ers,Cleveland Cavaliers,0.26
-Philadelphia 76ers,Dallas Mavericks,0.37
-Philadelphia 76ers,Denver Nuggets,0.35
-Philadelphia 76ers,Detroit Pistons,0.2
-Philadelphia 76ers,Golden State Warriors,0.34
-Philadelphia 76ers,Houston Rockets,0.26
-Philadelphia 76ers,Indiana Pacers,0.29
-Philadelphia 76ers,Los Angeles Clippers,0.31
-Philadelphia 76ers,Los Angeles Lakers,0.29
-Philadelphia 76ers,Memphis Grizzlies,0.31
-Philadelphia 76ers,Miami Heat,0.29
-Philadelphia 76ers,Milwaukee Bucks,0.52
-Philadelphia 76ers,Minnesota Timberwolves,0.25
-Philadelphia 76ers,New Orleans Pelicans,0.3
-Philadelphia 76ers,New York Knicks,0.3
-Philadelphia 76ers,Oklahoma City Thunder,0.29
-Philadelphia 76ers,Orlando Magic,0.3
-Philadelphia 76ers,Phoenix Suns,0.4
-Philadelphia 76ers,Portland Trail Blazers,0.42
-Philadelphia 76ers,Sacramento Kings,0.29
-Philadelphia 76ers,San Antonio Spurs,0.32
-Philadelphia 76ers,Toronto Raptors,0.29
-Philadelphia 76ers,Utah Jazz,0.28
-Philadelphia 76ers,Washington Wizards,0.28
-Phoenix Suns,Atlanta Hawks,0.29
-Phoenix Suns,Boston Celtics,0.34
-Phoenix Suns,Brooklyn Nets,0.46
-Phoenix Suns,Charlotte Hornets,0.31
-Phoenix Suns,Chicago Bulls,0.29
-Phoenix Suns,Cleveland Cavaliers,0.29
-Phoenix Suns,Dallas Mavericks,0.42
-Phoenix Suns,Denver Nuggets,0.49
-Phoenix Suns,Detroit Pistons,0.26
-Phoenix Suns,Golden State Warriors,0.26
-Phoenix Suns,Houston Rockets,0.29
-Phoenix Suns,Indiana Pacers,0.31
-Phoenix Suns,Los Angeles Clippers,0.44
-Phoenix Suns,Los Angeles Lakers,0.27
-Phoenix Suns,Memphis Grizzlies,0.28
-Phoenix Suns,Miami Heat,0.29
-Phoenix Suns,Milwaukee Bucks,0.33
-Phoenix Suns,Minnesota Timberwolves,0.29
-Phoenix Suns,New Orleans Pelicans,0.29
-Phoenix Suns,New York Knicks,0.28
-Phoenix Suns,Oklahoma City Thunder,0.3
-Phoenix Suns,Orlando Magic,0.28
-Phoenix Suns,Philadelphia 76ers,0.34
-Phoenix Suns,Portland Trail Blazers,0.33
-Phoenix Suns,Sacramento Kings,0.29
-Phoenix Suns,San Antonio Spurs,0.3
-Phoenix Suns,Toronto Raptors,0.29
-Phoenix Suns,Utah Jazz,0.34
-Phoenix Suns,Washington Wizards,0.3
-Portland Trail Blazers,Atlanta Hawks,0.55
-Portland Trail Blazers,Boston Celtics,0.5
-Portland Trail Blazers,Brooklyn Nets,0.67
-Portland Trail Blazers,Charlotte Hornets,0.3
-Portland Trail Blazers,Chicago Bulls,0.53
-Portland Trail Blazers,Cleveland Cavaliers,0.29
-Portland Trail Blazers,Dallas Mavericks,0.62
-Portland Trail Blazers,Denver Nuggets,0.62
-Portland Trail Blazers,Detroit Pistons,0.36
-Portland Trail Blazers,Golden State Warriors,0.34
-Portland Trail Blazers,Houston Rockets,0.29
-Portland Trail Blazers,Indiana Pacers,0.47
-Portland Trail Blazers,Los Angeles Clippers,0.65
-Portland Trail Blazers,Los Angeles Lakers,0.49
-Portland Trail Blazers,Memphis Grizzlies,0.45
-Portland Trail Blazers,Miami Heat,0.42
-Portland Trail Blazers,Milwaukee Bucks,0.51
-Portland Trail Blazers,Minnesota Timberwolves,0.29
-Portland Trail Blazers,New Orleans Pelicans,0.33
-Portland Trail Blazers,New York Knicks,0.37
-Portland Trail Blazers,Oklahoma City Thunder,0.3
-Portland Trail Blazers,Orlando Magic,0.29
-Portland Trail Blazers,Philadelphia 76ers,0.46
-Portland Trail Blazers,Phoenix Suns,0.68
-Portland Trail Blazers,Sacramento Kings,0.36
-Portland Trail Blazers,San Antonio Spurs,0.47
-Portland Trail Blazers,Toronto Raptors,0.3
-Portland Trail Blazers,Utah Jazz,0.57
-Portland Trail Blazers,Washington Wizards,0.38
-Sacramento Kings,Atlanta Hawks,0.55
-Sacramento Kings,Boston Celtics,0.46
-Sacramento Kings,Brooklyn Nets,0.67
-Sacramento Kings,Charlotte Hornets,0.55
-Sacramento Kings,Chicago Bulls,0.45
-Sacramento Kings,Cleveland Cavaliers,0.29
-Sacramento Kings,Dallas Mavericks,0.63
-Sacramento Kings,Denver Nuggets,0.6
-Sacramento Kings,Detroit Pistons,0.32
-Sacramento Kings,Golden State Warriors,0.4
-Sacramento Kings,Houston Rockets,0.29
-Sacramento Kings,Indiana Pacers,0.5
-Sacramento Kings,Los Angeles Clippers,0.61
-Sacramento Kings,Los Angeles Lakers,0.55
-Sacramento Kings,Memphis Grizzlies,0.54
-Sacramento Kings,Miami Heat,0.54
-Sacramento Kings,Milwaukee Bucks,0.66
-Sacramento Kings,Minnesota Timberwolves,0.33
-Sacramento Kings,New Orleans Pelicans,0.48
-Sacramento Kings,New York Knicks,0.5
-Sacramento Kings,Oklahoma City Thunder,0.37
-Sacramento Kings,Orlando Magic,0.38
-Sacramento Kings,Philadelphia 76ers,0.62
-Sacramento Kings,Phoenix Suns,0.66
-Sacramento Kings,Portland Trail Blazers,0.67
-Sacramento Kings,San Antonio Spurs,0.59
-Sacramento Kings,Toronto Raptors,0.35
-Sacramento Kings,Utah Jazz,0.56
-Sacramento Kings,Washington Wizards,0.36
-San Antonio Spurs,Atlanta Hawks,0.63
-San Antonio Spurs,Boston Celtics,0.51
-San Antonio Spurs,Brooklyn Nets,0.74
-San Antonio Spurs,Charlotte Hornets,0.62
-San Antonio Spurs,Chicago Bulls,0.45
-San Antonio Spurs,Cleveland Cavaliers,0.28
-San Antonio Spurs,Dallas Mavericks,0.7
-San Antonio Spurs,Denver Nuggets,0.69
-San Antonio Spurs,Detroit Pistons,0.29
-San Antonio Spurs,Golden State Warriors,0.52
-San Antonio Spurs,Houston Rockets,0.29
-San Antonio Spurs,Indiana Pacers,0.58
-San Antonio Spurs,Los Angeles Clippers,0.67
-San Antonio Spurs,Los Angeles Lakers,0.65
-San Antonio Spurs,Memphis Grizzlies,0.63
-San Antonio Spurs,Miami Heat,0.67
-San Antonio Spurs,Milwaukee Bucks,0.75
-San Antonio Spurs,Minnesota Timberwolves,0.31
-San Antonio Spurs,New Orleans Pelicans,0.49
-San Antonio Spurs,New York Knicks,0.61
-San Antonio Spurs,Oklahoma City Thunder,0.38
-San Antonio Spurs,Orlando Magic,0.36
-San Antonio Spurs,Philadelphia 76ers,0.71
-San Antonio Spurs,Phoenix Suns,0.71
-San Antonio Spurs,Portland Trail Blazers,0.69
-San Antonio Spurs,Sacramento Kings,0.49
-San Antonio Spurs,Toronto Raptors,0.32
-San Antonio Spurs,Utah Jazz,0.63
-San Antonio Spurs,Washington Wizards,0.41
-Toronto Raptors,Atlanta Hawks,0.67
-Toronto Raptors,Boston Celtics,0.57
-Toronto Raptors,Brooklyn Nets,0.67
-Toronto Raptors,Charlotte Hornets,0.3
-Toronto Raptors,Chicago Bulls,0.6
-Toronto Raptors,Cleveland Cavaliers,0.31
-Toronto Raptors,Dallas Mavericks,0.64
-Toronto Raptors,Denver Nuggets,0.64
-Toronto Raptors,Detroit Pistons,0.38
-Toronto Raptors,Golden State Warriors,0.4
-Toronto Raptors,Houston Rockets,0.29
-Toronto Raptors,Indiana Pacers,0.5
-Toronto Raptors,Los Angeles Clippers,0.73
-Toronto Raptors,Los Angeles Lakers,0.66
-Toronto Raptors,Memphis Grizzlies,0.54
-Toronto Raptors,Miami Heat,0.43
-Toronto Raptors,Milwaukee Bucks,0.58
-Toronto Raptors,Minnesota Timberwolves,0.32
-Toronto Raptors,New Orleans Pelicans,0.46
-Toronto Raptors,New York Knicks,0.47
-Toronto Raptors,Oklahoma City Thunder,0.32
-Toronto Raptors,Orlando Magic,0.29
-Toronto Raptors,Philadelphia 76ers,0.65
-Toronto Raptors,Phoenix Suns,0.73
-Toronto Raptors,Portland Trail Blazers,0.55
-Toronto Raptors,Sacramento Kings,0.38
-Toronto Raptors,San Antonio Spurs,0.44
-Toronto Raptors,Utah Jazz,0.65
-Toronto Raptors,Washington Wizards,0.36
-Utah Jazz,Atlanta Hawks,0.3
-Utah Jazz,Boston Celtics,0.31
-Utah Jazz,Brooklyn Nets,0.43
-Utah Jazz,Charlotte Hornets,0.27
-Utah Jazz,Chicago Bulls,0.3
-Utah Jazz,Cleveland Cavaliers,0.31
-Utah Jazz,Dallas Mavericks,0.4
-Utah Jazz,Denver Nuggets,0.35
-Utah Jazz,Detroit Pistons,0.29
-Utah Jazz,Golden State Warriors,0.3
-Utah Jazz,Houston Rockets,0.31
-Utah Jazz,Indiana Pacers,0.36
-Utah Jazz,Los Angeles Clippers,0.37
-Utah Jazz,Los Angeles Lakers,0.3
-Utah Jazz,Memphis Grizzlies,0.29
-Utah Jazz,Miami Heat,0.26
-Utah Jazz,Milwaukee Bucks,0.35
-Utah Jazz,Minnesota Timberwolves,0.31
-Utah Jazz,New Orleans Pelicans,0.26
-Utah Jazz,New York Knicks,0.29
-Utah Jazz,Oklahoma City Thunder,0.31
-Utah Jazz,Orlando Magic,0.3
-Utah Jazz,Philadelphia 76ers,0.36
-Utah Jazz,Phoenix Suns,0.45
-Utah Jazz,Portland Trail Blazers,0.38
-Utah Jazz,Sacramento Kings,0.34
-Utah Jazz,San Antonio Spurs,0.35
-Utah Jazz,Toronto Raptors,0.27
-Utah Jazz,Washington Wizards,0.33
-Washington Wizards,Atlanta Hawks,0.53
-Washington Wizards,Boston Celtics,0.39
-Washington Wizards,Brooklyn Nets,0.54
-Washington Wizards,Charlotte Hornets,0.67
-Washington Wizards,Chicago Bulls,0.37
-Washington Wizards,Cleveland Cavaliers,0.29
-Washington Wizards,Dallas Mavericks,0.55
-Washington Wizards,Denver Nuggets,0.45
-Washington Wizards,Detroit Pistons,0.29
-Washington Wizards,Golden State Warriors,0.39
-Washington Wizards,Houston Rockets,0.29
-Washington Wizards,Indiana Pacers,0.49
-Washington Wizards,Los Angeles Clippers,0.36
-Washington Wizards,Los Angeles Lakers,0.47
-Washington Wizards,Memphis Grizzlies,0.55
-Washington Wizards,Miami Heat,0.65
-Washington Wizards,Milwaukee Bucks,0.67
-Washington Wizards,Minnesota Timberwolves,0.32
-Washington Wizards,New Orleans Pelicans,0.48
-Washington Wizards,New York Knicks,0.67
-Washington Wizards,Oklahoma City Thunder,0.4
-Washington Wizards,Orlando Magic,0.52
-Washington Wizards,Philadelphia 76ers,0.48
-Washington Wizards,Phoenix Suns,0.4
-Washington Wizards,Portland Trail Blazers,0.67
-Washington Wizards,Sacramento Kings,0.49
-Washington Wizards,San Antonio Spurs,0.67
-Washington Wizards,Toronto Raptors,0.45
-Washington Wizards,Utah Jazz,0.45
+home_team,away_team,home_win_prob,away_win_prob
+ATL,BOS,0.65,0.35
+ATL,BKN,0.72,0.28
+ATL,CHA,0.78,0.22
+ATL,CHI,0.67,0.33
+ATL,CLE,0.74,0.26
+ATL,DAL,0.66,0.34
+ATL,DEN,0.62,0.38
+ATL,DET,0.78,0.22
+ATL,GSW,0.59,0.41
+ATL,HOU,0.69,0.31
+ATL,IND,0.71,0.29
+ATL,LAC,0.65,0.35
+ATL,LAL,0.68,0.32
+ATL,MEM,0.72,0.28
+ATL,MIA,0.68,0.32
+ATL,MIL,0.68,0.32
+ATL,MIN,0.67,0.33
+ATL,NOP,0.7,0.3
+ATL,NYK,0.74,0.26
+ATL,OKC,0.69,0.31
+ATL,ORL,0.73,0.27
+ATL,PHI,0.73,0.27
+ATL,PHX,0.55,0.45
+ATL,POR,0.72,0.28
+ATL,SAC,0.7,0.3
+ATL,SAS,0.62,0.38
+ATL,TOR,0.7,0.3
+ATL,UTA,0.65,0.35
+ATL,WAS,0.74,0.26
+BOS,ATL,0.75,0.25
+BOS,BKN,0.74,0.26
+BOS,CHA,0.8,0.2
+BOS,CHI,0.7,0.3
+BOS,CLE,0.77,0.23
+BOS,DAL,0.7,0.3
+BOS,DEN,0.65,0.35
+BOS,DET,0.81,0.19
+BOS,GSW,0.63,0.37
+BOS,HOU,0.72,0.28
+BOS,IND,0.74,0.26
+BOS,LAC,0.68,0.32
+BOS,LAL,0.71,0.29
+BOS,MEM,0.74,0.26
+BOS,MIA,0.71,0.29
+BOS,MIL,0.71,0.29
+BOS,MIN,0.7,0.3
+BOS,NOP,0.73,0.27
+BOS,NYK,0.77,0.23
+BOS,OKC,0.72,0.28
+BOS,ORL,0.75,0.25
+BOS,PHI,0.75,0.25
+BOS,PHX,0.59,0.41
+BOS,POR,0.75,0.25
+BOS,SAC,0.73,0.27
+BOS,SAS,0.65,0.35
+BOS,TOR,0.73,0.27
+BOS,UTA,0.68,0.32
+BOS,WAS,0.76,0.24
+BKN,ATL,0.66,0.34
+BKN,BOS,0.58,0.42
+BKN,CHA,0.72,0.28
+BKN,CHI,0.6,0.4
+BKN,CLE,0.68,0.32
+BKN,DAL,0.6,0.4
+BKN,DEN,0.55,0.45
+BKN,DET,0.73,0.27
+BKN,GSW,0.52,0.48
+BKN,HOU,0.63,0.37
+BKN,IND,0.64,0.36
+BKN,LAC,0.58,0.42
+BKN,LAL,0.61,0.39
+BKN,MEM,0.65,0.35
+BKN,MIA,0.62,0.38
+BKN,MIL,0.62,0.38
+BKN,MIN,0.6,0.4
+BKN,NOP,0.63,0.37
+BKN,NYK,0.68,0.32
+BKN,OKC,0.62,0.38
+BKN,ORL,0.67,0.33
+BKN,PHI,0.66,0.34
+BKN,PHX,0.48,0.52
+BKN,POR,0.66,0.34
+BKN,SAC,0.63,0.37
+BKN,SAS,0.55,0.45
+BKN,TOR,0.63,0.37
+BKN,UTA,0.58,0.42
+BKN,WAS,0.68,0.32
+CHA,ATL,0.6,0.4
+CHA,BOS,0.51,0.49
+CHA,BKN,0.59,0.41
+CHA,CHI,0.54,0.46
+CHA,CLE,0.62,0.38
+CHA,DAL,0.53,0.47
+CHA,DEN,0.48,0.52
+CHA,DET,0.67,0.33
+CHA,GSW,0.45,0.55
+CHA,HOU,0.56,0.44
+CHA,IND,0.58,0.42
+CHA,LAC,0.51,0.49
+CHA,LAL,0.54,0.46
+CHA,MEM,0.59,0.41
+CHA,MIA,0.55,0.45
+CHA,MIL,0.55,0.45
+CHA,MIN,0.53,0.47
+CHA,NOP,0.57,0.43
+CHA,NYK,0.62,0.38
+CHA,OKC,0.56,0.44
+CHA,ORL,0.6,0.4
+CHA,PHI,0.6,0.4
+CHA,PHX,0.41,0.59
+CHA,POR,0.6,0.4
+CHA,SAC,0.57,0.43
+CHA,SAS,0.48,0.52
+CHA,TOR,0.57,0.43
+CHA,UTA,0.52,0.48
+CHA,WAS,0.61,0.39
+CHI,ATL,0.69,0.31
+CHI,BOS,0.61,0.39
+CHI,BKN,0.68,0.32
+CHI,CHA,0.75,0.25
+CHI,CLE,0.71,0.29
+CHI,DAL,0.63,0.37
+CHI,DEN,0.58,0.42
+CHI,DET,0.76,0.24
+CHI,GSW,0.56,0.44
+CHI,HOU,0.66,0.34
+CHI,IND,0.68,0.32
+CHI,LAC,0.62,0.38
+CHI,LAL,0.64,0.36
+CHI,MEM,0.69,0.31
+CHI,MIA,0.65,0.35
+CHI,MIL,0.65,0.35
+CHI,MIN,0.63,0.37
+CHI,NOP,0.67,0.33
+CHI,NYK,0.71,0.29
+CHI,OKC,0.66,0.34
+CHI,ORL,0.7,0.3
+CHI,PHI,0.7,0.3
+CHI,PHX,0.52,0.48
+CHI,POR,0.69,0.31
+CHI,SAC,0.67,0.33
+CHI,SAS,0.58,0.42
+CHI,TOR,0.67,0.33
+CHI,UTA,0.62,0.38
+CHI,WAS,0.71,0.29
+CLE,ATL,0.7,0.3
+CLE,BOS,0.63,0.37
+CLE,BKN,0.7,0.3
+CLE,CHA,0.76,0.24
+CLE,CHI,0.65,0.35
+CLE,DAL,0.64,0.36
+CLE,DEN,0.59,0.41
+CLE,DET,0.77,0.23
+CLE,GSW,0.57,0.43
+CLE,HOU,0.67,0.33
+CLE,IND,0.69,0.31
+CLE,LAC,0.63,0.37
+CLE,LAL,0.65,0.35
+CLE,MEM,0.7,0.3
+CLE,MIA,0.66,0.34
+CLE,MIL,0.66,0.34
+CLE,MIN,0.65,0.35
+CLE,NOP,0.68,0.32
+CLE,NYK,0.72,0.28
+CLE,OKC,0.67,0.33
+CLE,ORL,0.71,0.29
+CLE,PHI,0.71,0.29
+CLE,PHX,0.53,0.47
+CLE,POR,0.7,0.3
+CLE,SAC,0.68,0.32
+CLE,SAS,0.59,0.41
+CLE,TOR,0.68,0.32
+CLE,UTA,0.63,0.37
+CLE,WAS,0.72,0.28
+DAL,ATL,0.75,0.25
+DAL,BOS,0.68,0.32
+DAL,BKN,0.74,0.26
+DAL,CHA,0.8,0.2
+DAL,CHI,0.7,0.3
+DAL,CLE,0.77,0.23
+DAL,DEN,0.65,0.35
+DAL,DET,0.8,0.2
+DAL,GSW,0.62,0.38
+DAL,HOU,0.72,0.28
+DAL,IND,0.73,0.27
+DAL,LAC,0.68,0.32
+DAL,LAL,0.7,0.3
+DAL,MEM,0.74,0.26
+DAL,MIA,0.71,0.29
+DAL,MIL,0.71,0.29
+DAL,MIN,0.7,0.3
+DAL,NOP,0.72,0.28
+DAL,NYK,0.76,0.24
+DAL,OKC,0.71,0.29
+DAL,ORL,0.75,0.25
+DAL,PHI,0.75,0.25
+DAL,PHX,0.59,0.41
+DAL,POR,0.75,0.25
+DAL,SAC,0.73,0.27
+DAL,SAS,0.65,0.35
+DAL,TOR,0.72,0.28
+DAL,UTA,0.68,0.32
+DAL,WAS,0.76,0.24
+DEN,ATL,0.82,0.18
+DEN,BOS,0.76,0.24
+DEN,BKN,0.81,0.19
+DEN,CHA,0.86,0.14
+DEN,CHI,0.78,0.22
+DEN,CLE,0.83,0.17
+DEN,DAL,0.77,0.23
+DEN,DET,0.86,0.14
+DEN,GSW,0.71,0.29
+DEN,HOU,0.79,0.21
+DEN,IND,0.8,0.2
+DEN,LAC,0.76,0.24
+DEN,LAL,0.78,0.22
+DEN,MEM,0.81,0.19
+DEN,MIA,0.79,0.21
+DEN,MIL,0.79,0.21
+DEN,MIN,0.77,0.23
+DEN,NOP,0.8,0.2
+DEN,NYK,0.83,0.17
+DEN,OKC,0.79,0.21
+DEN,ORL,0.82,0.18
+DEN,PHI,0.82,0.18
+DEN,PHX,0.68,0.32
+DEN,POR,0.82,0.18
+DEN,SAC,0.8,0.2
+DEN,SAS,0.73,0.27
+DEN,TOR,0.8,0.2
+DEN,UTA,0.76,0.24
+DEN,WAS,0.83,0.17
+DET,ATL,0.64,0.36
+DET,BOS,0.55,0.45
+DET,BKN,0.63,0.37
+DET,CHA,0.7,0.3
+DET,CHI,0.58,0.42
+DET,CLE,0.66,0.34
+DET,DAL,0.57,0.43
+DET,DEN,0.52,0.48
+DET,GSW,0.5,0.5
+DET,HOU,0.6,0.4
+DET,IND,0.62,0.38
+DET,LAC,0.56,0.44
+DET,LAL,0.58,0.42
+DET,MEM,0.63,0.37
+DET,MIA,0.59,0.41
+DET,MIL,0.59,0.41
+DET,MIN,0.58,0.42
+DET,NOP,0.61,0.39
+DET,NYK,0.66,0.34
+DET,OKC,0.6,0.4
+DET,ORL,0.64,0.36
+DET,PHI,0.64,0.36
+DET,PHX,0.46,0.54
+DET,POR,0.64,0.36
+DET,SAC,0.61,0.39
+DET,SAS,0.52,0.48
+DET,TOR,0.61,0.39
+DET,UTA,0.56,0.44
+DET,WAS,0.65,0.35
+GSW,ATL,0.85,0.15
+GSW,BOS,0.8,0.2
+GSW,BKN,0.85,0.15
+GSW,CHA,0.88,0.12
+GSW,CHI,0.82,0.18
+GSW,CLE,0.86,0.14
+GSW,DAL,0.81,0.19
+GSW,DEN,0.78,0.22
+GSW,DET,0.89,0.11
+GSW,HOU,0.83,0.17
+GSW,IND,0.84,0.16
+GSW,LAC,0.8,0.2
+GSW,LAL,0.82,0.18
+GSW,MEM,0.85,0.15
+GSW,MIA,0.83,0.17
+GSW,MIL,0.83,0.17
+GSW,MIN,0.82,0.18
+GSW,NOP,0.84,0.16
+GSW,NYK,0.86,0.14
+GSW,OKC,0.83,0.17
+GSW,ORL,0.86,0.14
+GSW,PHI,0.85,0.15
+GSW,PHX,0.73,0.27
+GSW,POR,0.85,0.15
+GSW,SAC,0.84,0.16
+GSW,SAS,0.78,0.22
+GSW,TOR,0.84,0.16
+GSW,UTA,0.81,0.19
+GSW,WAS,0.86,0.14
+HOU,ATL,0.66,0.34
+HOU,BOS,0.58,0.42
+HOU,BKN,0.65,0.35
+HOU,CHA,0.72,0.28
+HOU,CHI,0.61,0.39
+HOU,CLE,0.68,0.32
+HOU,DAL,0.6,0.4
+HOU,DEN,0.55,0.45
+HOU,DET,0.73,0.27
+HOU,GSW,0.52,0.48
+HOU,IND,0.64,0.36
+HOU,LAC,0.58,0.42
+HOU,LAL,0.61,0.39
+HOU,MEM,0.66,0.34
+HOU,MIA,0.62,0.38
+HOU,MIL,0.62,0.38
+HOU,MIN,0.6,0.4
+HOU,NOP,0.64,0.36
+HOU,NYK,0.68,0.32
+HOU,OKC,0.62,0.38
+HOU,ORL,0.67,0.33
+HOU,PHI,0.67,0.33
+HOU,PHX,0.48,0.52
+HOU,POR,0.66,0.34
+HOU,SAC,0.64,0.36
+HOU,SAS,0.55,0.45
+HOU,TOR,0.63,0.37
+HOU,UTA,0.59,0.41
+HOU,WAS,0.68,0.32
+IND,ATL,0.69,0.31
+IND,BOS,0.61,0.39
+IND,BKN,0.69,0.31
+IND,CHA,0.75,0.25
+IND,CHI,0.64,0.36
+IND,CLE,0.71,0.29
+IND,DAL,0.63,0.37
+IND,DEN,0.58,0.42
+IND,DET,0.76,0.24
+IND,GSW,0.56,0.44
+IND,HOU,0.66,0.34
+IND,LAC,0.62,0.38
+IND,LAL,0.64,0.36
+IND,MEM,0.69,0.31
+IND,MIA,0.65,0.35
+IND,MIL,0.65,0.35
+IND,MIN,0.63,0.37
+IND,NOP,0.67,0.33
+IND,NYK,0.71,0.29
+IND,OKC,0.66,0.34
+IND,ORL,0.7,0.3
+IND,PHI,0.7,0.3
+IND,PHX,0.52,0.48
+IND,POR,0.69,0.31
+IND,SAC,0.67,0.33
+IND,SAS,0.58,0.42
+IND,TOR,0.67,0.33
+IND,UTA,0.62,0.38
+IND,WAS,0.71,0.29
+LAC,ATL,0.74,0.26
+LAC,BOS,0.67,0.33
+LAC,BKN,0.74,0.26
+LAC,CHA,0.79,0.21
+LAC,CHI,0.69,0.31
+LAC,CLE,0.76,0.24
+LAC,DAL,0.69,0.31
+LAC,DEN,0.64,0.36
+LAC,DET,0.8,0.2
+LAC,GSW,0.62,0.38
+LAC,HOU,0.71,0.29
+LAC,IND,0.73,0.27
+LAC,LAL,0.7,0.3
+LAC,MEM,0.74,0.26
+LAC,MIA,0.71,0.29
+LAC,MIL,0.71,0.29
+LAC,MIN,0.69,0.31
+LAC,NOP,0.72,0.28
+LAC,NYK,0.76,0.24
+LAC,OKC,0.71,0.29
+LAC,ORL,0.75,0.25
+LAC,PHI,0.75,0.25
+LAC,PHX,0.58,0.42
+LAC,POR,0.74,0.26
+LAC,SAC,0.72,0.28
+LAC,SAS,0.64,0.36
+LAC,TOR,0.72,0.28
+LAC,UTA,0.68,0.32
+LAC,WAS,0.76,0.24
+LAL,ATL,0.73,0.27
+LAL,BOS,0.65,0.35
+LAL,BKN,0.72,0.28
+LAL,CHA,0.78,0.22
+LAL,CHI,0.67,0.33
+LAL,CLE,0.75,0.25
+LAL,DAL,0.67,0.33
+LAL,DEN,0.62,0.38
+LAL,DET,0.79,0.21
+LAL,GSW,0.6,0.4
+LAL,HOU,0.7,0.3
+LAL,IND,0.71,0.29
+LAL,LAC,0.65,0.35
+LAL,MEM,0.72,0.28
+LAL,MIA,0.69,0.31
+LAL,MIL,0.69,0.31
+LAL,MIN,0.67,0.33
+LAL,NOP,0.7,0.3
+LAL,NYK,0.74,0.26
+LAL,OKC,0.69,0.31
+LAL,ORL,0.73,0.27
+LAL,PHI,0.73,0.27
+LAL,PHX,0.56,0.44
+LAL,POR,0.73,0.27
+LAL,SAC,0.7,0.3
+LAL,SAS,0.62,0.38
+LAL,TOR,0.7,0.3
+LAL,UTA,0.66,0.34
+LAL,WAS,0.74,0.26
+MEM,ATL,0.66,0.34
+MEM,BOS,0.58,0.42
+MEM,BKN,0.65,0.35
+MEM,CHA,0.72,0.28
+MEM,CHI,0.6,0.4
+MEM,CLE,0.68,0.32
+MEM,DAL,0.6,0.4
+MEM,DEN,0.55,0.45
+MEM,DET,0.73,0.27
+MEM,GSW,0.52,0.48
+MEM,HOU,0.63,0.37
+MEM,IND,0.64,0.36
+MEM,LAC,0.58,0.42
+MEM,LAL,0.61,0.39
+MEM,MIA,0.62,0.38
+MEM,MIL,0.62,0.38
+MEM,MIN,0.6,0.4
+MEM,NOP,0.63,0.37
+MEM,NYK,0.68,0.32
+MEM,OKC,0.62,0.38
+MEM,ORL,0.67,0.33
+MEM,PHI,0.66,0.34
+MEM,PHX,0.48,0.52
+MEM,POR,0.66,0.34
+MEM,SAC,0.63,0.37
+MEM,SAS,0.55,0.45
+MEM,TOR,0.63,0.37
+MEM,UTA,0.58,0.42
+MEM,WAS,0.68,0.32
+MIA,ATL,0.71,0.29
+MIA,BOS,0.63,0.37
+MIA,BKN,0.7,0.3
+MIA,CHA,0.76,0.24
+MIA,CHI,0.66,0.34
+MIA,CLE,0.73,0.27
+MIA,DAL,0.65,0.35
+MIA,DEN,0.6,0.4
+MIA,DET,0.77,0.23
+MIA,GSW,0.58,0.42
+MIA,HOU,0.68,0.32
+MIA,IND,0.69,0.31
+MIA,LAC,0.63,0.37
+MIA,LAL,0.66,0.34
+MIA,MEM,0.7,0.3
+MIA,MIL,0.67,0.33
+MIA,MIN,0.65,0.35
+MIA,NOP,0.68,0.32
+MIA,NYK,0.73,0.27
+MIA,OKC,0.67,0.33
+MIA,ORL,0.71,0.29
+MIA,PHI,0.71,0.29
+MIA,PHX,0.54,0.46
+MIA,POR,0.71,0.29
+MIA,SAC,0.69,0.31
+MIA,SAS,0.6,0.4
+MIA,TOR,0.68,0.32
+MIA,UTA,0.64,0.36
+MIA,WAS,0.72,0.28
+MIL,ATL,0.75,0.25
+MIL,BOS,0.68,0.32
+MIL,BKN,0.74,0.26
+MIL,CHA,0.8,0.2
+MIL,CHI,0.7,0.3
+MIL,CLE,0.76,0.24
+MIL,DAL,0.69,0.31
+MIL,DEN,0.64,0.36
+MIL,DET,0.8,0.2
+MIL,GSW,0.62,0.38
+MIL,HOU,0.72,0.28
+MIL,IND,0.73,0.27
+MIL,LAC,0.68,0.32
+MIL,LAL,0.7,0.3
+MIL,MEM,0.74,0.26
+MIL,MIA,0.71,0.29
+MIL,MIN,0.69,0.31
+MIL,NOP,0.72,0.28
+MIL,NYK,0.76,0.24
+MIL,OKC,0.71,0.29
+MIL,ORL,0.75,0.25
+MIL,PHI,0.75,0.25
+MIL,PHX,0.58,0.42
+MIL,POR,0.75,0.25
+MIL,SAC,0.72,0.28
+MIL,SAS,0.65,0.35
+MIL,TOR,0.72,0.28
+MIL,UTA,0.68,0.32
+MIL,WAS,0.76,0.24
+MIN,ATL,0.68,0.32
+MIN,BOS,0.6,0.4
+MIN,BKN,0.67,0.33
+MIN,CHA,0.74,0.26
+MIN,CHI,0.63,0.37
+MIN,CLE,0.7,0.3
+MIN,DAL,0.62,0.38
+MIN,DEN,0.57,0.43
+MIN,DET,0.75,0.25
+MIN,GSW,0.55,0.45
+MIN,HOU,0.65,0.35
+MIN,IND,0.66,0.34
+MIN,LAC,0.6,0.4
+MIN,LAL,0.63,0.37
+MIN,MEM,0.68,0.32
+MIN,MIA,0.64,0.36
+MIN,MIL,0.64,0.36
+MIN,NOP,0.66,0.34
+MIN,NYK,0.7,0.3
+MIN,OKC,0.65,0.35
+MIN,ORL,0.69,0.31
+MIN,PHI,0.69,0.31
+MIN,PHX,0.51,0.49
+MIN,POR,0.68,0.32
+MIN,SAC,0.66,0.34
+MIN,SAS,0.57,0.43
+MIN,TOR,0.65,0.35
+MIN,UTA,0.61,0.39
+MIN,WAS,0.7,0.3
+NOP,ATL,0.73,0.27
+NOP,BOS,0.66,0.34
+NOP,BKN,0.72,0.28
+NOP,CHA,0.78,0.22
+NOP,CHI,0.68,0.32
+NOP,CLE,0.75,0.25
+NOP,DAL,0.67,0.33
+NOP,DEN,0.63,0.37
+NOP,DET,0.79,0.21
+NOP,GSW,0.6,0.4
+NOP,HOU,0.7,0.3
+NOP,IND,0.72,0.28
+NOP,LAC,0.66,0.34
+NOP,LAL,0.69,0.31
+NOP,MEM,0.73,0.27
+NOP,MIA,0.69,0.31
+NOP,MIL,0.69,0.31
+NOP,MIN,0.68,0.32
+NOP,NYK,0.75,0.25
+NOP,OKC,0.7,0.3
+NOP,ORL,0.74,0.26
+NOP,PHI,0.74,0.26
+NOP,PHX,0.57,0.43
+NOP,POR,0.73,0.27
+NOP,SAC,0.71,0.29
+NOP,SAS,0.63,0.37
+NOP,TOR,0.71,0.29
+NOP,UTA,0.66,0.34
+NOP,WAS,0.75,0.25
+NYK,ATL,0.63,0.37
+NYK,BOS,0.54,0.46
+NYK,BKN,0.62,0.38
+NYK,CHA,0.69,0.31
+NYK,CHI,0.57,0.43
+NYK,CLE,0.65,0.35
+NYK,DAL,0.56,0.44
+NYK,DEN,0.51,0.49
+NYK,DET,0.7,0.3
+NYK,GSW,0.49,0.51
+NYK,HOU,0.59,0.41
+NYK,IND,0.61,0.39
+NYK,LAC,0.55,0.45
+NYK,LAL,0.57,0.43
+NYK,MEM,0.62,0.38
+NYK,MIA,0.58,0.42
+NYK,MIL,0.58,0.42
+NYK,MIN,0.57,0.43
+NYK,NOP,0.6,0.4
+NYK,OKC,0.59,0.41
+NYK,ORL,0.63,0.37
+NYK,PHI,0.63,0.37
+NYK,PHX,0.45,0.55
+NYK,POR,0.63,0.37
+NYK,SAC,0.6,0.4
+NYK,SAS,0.51,0.49
+NYK,TOR,0.6,0.4
+NYK,UTA,0.55,0.45
+NYK,WAS,0.65,0.35
+OKC,ATL,0.74,0.26
+OKC,BOS,0.67,0.33
+OKC,BKN,0.73,0.27
+OKC,CHA,0.79,0.21
+OKC,CHI,0.69,0.31
+OKC,CLE,0.76,0.24
+OKC,DAL,0.68,0.32
+OKC,DEN,0.64,0.36
+OKC,DET,0.8,0.2
+OKC,GSW,0.61,0.39
+OKC,HOU,0.71,0.29
+OKC,IND,0.72,0.28
+OKC,LAC,0.67,0.33
+OKC,LAL,0.69,0.31
+OKC,MEM,0.73,0.27
+OKC,MIA,0.7,0.3
+OKC,MIL,0.7,0.3
+OKC,MIN,0.69,0.31
+OKC,NOP,0.72,0.28
+OKC,NYK,0.76,0.24
+OKC,ORL,0.74,0.26
+OKC,PHI,0.74,0.26
+OKC,PHX,0.57,0.43
+OKC,POR,0.74,0.26
+OKC,SAC,0.72,0.28
+OKC,SAS,0.64,0.36
+OKC,TOR,0.71,0.29
+OKC,UTA,0.67,0.33
+OKC,WAS,0.75,0.25
+ORL,ATL,0.67,0.33
+ORL,BOS,0.59,0.41
+ORL,BKN,0.66,0.34
+ORL,CHA,0.73,0.27
+ORL,CHI,0.61,0.39
+ORL,CLE,0.69,0.31
+ORL,DAL,0.6,0.4
+ORL,DEN,0.55,0.45
+ORL,DET,0.73,0.27
+ORL,GSW,0.53,0.47
+ORL,HOU,0.63,0.37
+ORL,IND,0.65,0.35
+ORL,LAC,0.59,0.41
+ORL,LAL,0.62,0.38
+ORL,MEM,0.66,0.34
+ORL,MIA,0.62,0.38
+ORL,MIL,0.62,0.38
+ORL,MIN,0.61,0.39
+ORL,NOP,0.64,0.36
+ORL,NYK,0.69,0.31
+ORL,OKC,0.63,0.37
+ORL,PHI,0.67,0.33
+ORL,PHX,0.49,0.51
+ORL,POR,0.67,0.33
+ORL,SAC,0.64,0.36
+ORL,SAS,0.55,0.45
+ORL,TOR,0.64,0.36
+ORL,UTA,0.59,0.41
+ORL,WAS,0.68,0.32
+PHI,ATL,0.69,0.31
+PHI,BOS,0.61,0.39
+PHI,BKN,0.68,0.32
+PHI,CHA,0.75,0.25
+PHI,CHI,0.63,0.37
+PHI,CLE,0.71,0.29
+PHI,DAL,0.63,0.37
+PHI,DEN,0.58,0.42
+PHI,DET,0.75,0.25
+PHI,GSW,0.55,0.45
+PHI,HOU,0.66,0.34
+PHI,IND,0.67,0.33
+PHI,LAC,0.61,0.39
+PHI,LAL,0.64,0.36
+PHI,MEM,0.68,0.32
+PHI,MIA,0.65,0.35
+PHI,MIL,0.65,0.35
+PHI,MIN,0.63,0.37
+PHI,NOP,0.66,0.34
+PHI,NYK,0.71,0.29
+PHI,OKC,0.65,0.35
+PHI,ORL,0.69,0.31
+PHI,PHX,0.51,0.49
+PHI,POR,0.69,0.31
+PHI,SAC,0.66,0.34
+PHI,SAS,0.58,0.42
+PHI,TOR,0.66,0.34
+PHI,UTA,0.62,0.38
+PHI,WAS,0.71,0.29
+PHX,ATL,0.8,0.2
+PHX,BOS,0.74,0.26
+PHX,BKN,0.79,0.21
+PHX,CHA,0.84,0.16
+PHX,CHI,0.75,0.25
+PHX,CLE,0.81,0.19
+PHX,DAL,0.75,0.25
+PHX,DEN,0.71,0.29
+PHX,DET,0.84,0.16
+PHX,GSW,0.69,0.31
+PHX,HOU,0.77,0.23
+PHX,IND,0.78,0.22
+PHX,LAC,0.74,0.26
+PHX,LAL,0.76,0.24
+PHX,MEM,0.79,0.21
+PHX,MIA,0.76,0.24
+PHX,MIL,0.76,0.24
+PHX,MIN,0.75,0.25
+PHX,NOP,0.78,0.22
+PHX,NYK,0.81,0.19
+PHX,OKC,0.77,0.23
+PHX,ORL,0.8,0.2
+PHX,PHI,0.8,0.2
+PHX,POR,0.8,0.2
+PHX,SAC,0.78,0.22
+PHX,SAS,0.71,0.29
+PHX,TOR,0.78,0.22
+PHX,UTA,0.74,0.26
+PHX,WAS,0.81,0.19
+POR,ATL,0.72,0.28
+POR,BOS,0.64,0.36
+POR,BKN,0.71,0.29
+POR,CHA,0.77,0.23
+POR,CHI,0.67,0.33
+POR,CLE,0.74,0.26
+POR,DAL,0.66,0.34
+POR,DEN,0.61,0.39
+POR,DET,0.78,0.22
+POR,GSW,0.59,0.41
+POR,HOU,0.69,0.31
+POR,IND,0.7,0.3
+POR,LAC,0.65,0.35
+POR,LAL,0.67,0.33
+POR,MEM,0.71,0.29
+POR,MIA,0.68,0.32
+POR,MIL,0.68,0.32
+POR,MIN,0.66,0.34
+POR,NOP,0.69,0.31
+POR,NYK,0.74,0.26
+POR,OKC,0.68,0.32
+POR,ORL,0.72,0.28
+POR,PHI,0.72,0.28
+POR,PHX,0.55,0.45
+POR,SAC,0.7,0.3
+POR,SAS,0.61,0.39
+POR,TOR,0.69,0.31
+POR,UTA,0.65,0.35
+POR,WAS,0.73,0.27
+SAC,ATL,0.72,0.28
+SAC,BOS,0.64,0.36
+SAC,BKN,0.71,0.29
+SAC,CHA,0.77,0.23
+SAC,CHI,0.66,0.34
+SAC,CLE,0.73,0.27
+SAC,DAL,0.66,0.34
+SAC,DEN,0.61,0.39
+SAC,DET,0.78,0.22
+SAC,GSW,0.58,0.42
+SAC,HOU,0.68,0.32
+SAC,IND,0.7,0.3
+SAC,LAC,0.64,0.36
+SAC,LAL,0.67,0.33
+SAC,MEM,0.71,0.29
+SAC,MIA,0.67,0.33
+SAC,MIL,0.67,0.33
+SAC,MIN,0.66,0.34
+SAC,NOP,0.69,0.31
+SAC,NYK,0.73,0.27
+SAC,OKC,0.68,0.32
+SAC,ORL,0.72,0.28
+SAC,PHI,0.72,0.28
+SAC,PHX,0.54,0.46
+SAC,POR,0.71,0.29
+SAC,SAS,0.61,0.39
+SAC,TOR,0.69,0.31
+SAC,UTA,0.64,0.36
+SAC,WAS,0.73,0.27
+SAS,ATL,0.83,0.17
+SAS,BOS,0.78,0.22
+SAS,BKN,0.83,0.17
+SAS,CHA,0.87,0.13
+SAS,CHI,0.8,0.2
+SAS,CLE,0.85,0.15
+SAS,DAL,0.79,0.21
+SAS,DEN,0.76,0.24
+SAS,DET,0.87,0.13
+SAS,GSW,0.74,0.26
+SAS,HOU,0.81,0.19
+SAS,IND,0.82,0.18
+SAS,LAC,0.78,0.22
+SAS,LAL,0.8,0.2
+SAS,MEM,0.83,0.17
+SAS,MIA,0.81,0.19
+SAS,MIL,0.81,0.19
+SAS,MIN,0.8,0.2
+SAS,NOP,0.82,0.18
+SAS,NYK,0.85,0.15
+SAS,OKC,0.81,0.19
+SAS,ORL,0.84,0.16
+SAS,PHI,0.84,0.16
+SAS,PHX,0.71,0.29
+SAS,POR,0.83,0.17
+SAS,SAC,0.82,0.18
+SAS,TOR,0.82,0.18
+SAS,UTA,0.78,0.22
+SAS,WAS,0.84,0.16
+TOR,ATL,0.71,0.29
+TOR,BOS,0.64,0.36
+TOR,BKN,0.7,0.3
+TOR,CHA,0.77,0.23
+TOR,CHI,0.66,0.34
+TOR,CLE,0.73,0.27
+TOR,DAL,0.65,0.35
+TOR,DEN,0.6,0.4
+TOR,DET,0.77,0.23
+TOR,GSW,0.58,0.42
+TOR,HOU,0.68,0.32
+TOR,IND,0.69,0.31
+TOR,LAC,0.64,0.36
+TOR,LAL,0.66,0.34
+TOR,MEM,0.7,0.3
+TOR,MIA,0.67,0.33
+TOR,MIL,0.67,0.33
+TOR,MIN,0.65,0.35
+TOR,NOP,0.69,0.31
+TOR,NYK,0.73,0.27
+TOR,OKC,0.68,0.32
+TOR,ORL,0.72,0.28
+TOR,PHI,0.71,0.29
+TOR,PHX,0.54,0.46
+TOR,POR,0.71,0.29
+TOR,SAC,0.69,0.31
+TOR,SAS,0.6,0.4
+TOR,UTA,0.64,0.36
+TOR,WAS,0.73,0.27
+UTA,ATL,0.76,0.24
+UTA,BOS,0.7,0.3
+UTA,BKN,0.76,0.24
+UTA,CHA,0.81,0.19
+UTA,CHI,0.72,0.28
+UTA,CLE,0.78,0.22
+UTA,DAL,0.71,0.29
+UTA,DEN,0.67,0.33
+UTA,DET,0.82,0.18
+UTA,GSW,0.64,0.36
+UTA,HOU,0.74,0.26
+UTA,IND,0.75,0.25
+UTA,LAC,0.7,0.3
+UTA,LAL,0.72,0.28
+UTA,MEM,0.76,0.24
+UTA,MIA,0.73,0.27
+UTA,MIL,0.73,0.27
+UTA,MIN,0.71,0.29
+UTA,NOP,0.74,0.26
+UTA,NYK,0.78,0.22
+UTA,OKC,0.73,0.27
+UTA,ORL,0.77,0.23
+UTA,PHI,0.77,0.23
+UTA,PHX,0.61,0.39
+UTA,POR,0.76,0.24
+UTA,SAC,0.74,0.26
+UTA,SAS,0.67,0.33
+UTA,TOR,0.74,0.26
+UTA,WAS,0.78,0.22
+WAS,ATL,0.7,0.3
+WAS,BOS,0.63,0.37
+WAS,BKN,0.7,0.3
+WAS,CHA,0.76,0.24
+WAS,CHI,0.65,0.35
+WAS,CLE,0.72,0.28
+WAS,DAL,0.64,0.36
+WAS,DEN,0.59,0.41
+WAS,DET,0.77,0.23
+WAS,GSW,0.57,0.43
+WAS,HOU,0.67,0.33
+WAS,IND,0.69,0.31
+WAS,LAC,0.63,0.37
+WAS,LAL,0.65,0.35
+WAS,MEM,0.7,0.3
+WAS,MIA,0.66,0.34
+WAS,MIL,0.66,0.34
+WAS,MIN,0.65,0.35
+WAS,NOP,0.68,0.32
+WAS,NYK,0.72,0.28
+WAS,OKC,0.67,0.33
+WAS,ORL,0.71,0.29
+WAS,PHI,0.71,0.29
+WAS,PHX,0.53,0.47
+WAS,POR,0.7,0.3
+WAS,SAC,0.68,0.32
+WAS,SAS,0.59,0.41
+WAS,TOR,0.68,0.32
+WAS,UTA,0.63,0.37

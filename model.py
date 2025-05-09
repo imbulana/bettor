@@ -380,7 +380,7 @@ teams = [
     'Utah Jazz', 'Washington Wizards'
 ]
 
-# Collect all rows in a list first
+# # Collect all rows in a list first
 results = []
 
 for home_team in teams:

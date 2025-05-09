@@ -17,6 +17,6 @@ games.rename(columns={'ABBREVIATION': 'AWAY_TEAM'}, inplace=True)
 
 # Desired order: abbreviations first, then the rest
 games = games[['HOME_TEAM', 'AWAY_TEAM'] + [col for col in games.columns if col not in ['HOME_TEAM_ABBR', 'AWAY_TEAM_ABBR']]]
-games.drop(columns=['GAME_STATUS_TEXT'], inplace=True)
+games.drop(columns=['GAME_STATUS_TEXT','TEAM_ID_x','TEAM_ID_y'], inplace=True)
 
 games.to_csv('data/games_cleaned.csv', index=False)
