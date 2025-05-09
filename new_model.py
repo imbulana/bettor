@@ -12,9 +12,9 @@ import matplotlib.pyplot as plt
 # Load data
 df = pd.read_csv('data/games_cleaned.csv')
 
-# Sort by date to maintain time order
+# Sort by date descending so latest games come first
 df['GAME_DATE_EST'] = pd.to_datetime(df['GAME_DATE_EST'])
-df.sort_values('GAME_DATE_EST', inplace=True)
+df.sort_values('GAME_DATE_EST', ascending=True, inplace=True)
 
 # Compute per-team average stats for prediction via abbreviations
 home_team_avgs = df.groupby('HOME_TEAM')[[
@@ -32,10 +32,12 @@ features = [
 X = df[features]
 y = df['HOME_TEAM_WINS']
 
-# 80-20 time-based split
-split_idx = int(len(df) * 0.8)
-X_train, X_test = X.iloc[:split_idx], X.iloc[split_idx:]
-y_train, y_test = y.iloc[:split_idx], y.iloc[split_idx:]
+# Top 20% most recent games as test set
+n_test = int(len(df) * 0.2)
+X_test = X.iloc[:n_test]
+y_test = y.iloc[:n_test]
+X_train = X.iloc[n_test:]
+y_train = y.iloc[n_test:]
 
 # Define candidate models
 models = {
@@ -45,7 +47,7 @@ models = {
     # 'SVC': SVC(probability=True, random_state=42)
 }
 
-# Evaluate each model via TimeSeriesSplit
+# Evaluate each model via TimeSeriesSplit on training data
 tscv = TimeSeriesSplit(n_splits=5)
 results = {}
 plt.figure(figsize=(10, 8))
@@ -66,15 +68,15 @@ for name, model in models.items():
         cv_aucs.append(roc_auc_score(y_val, y_val_proba))
 
     avg_cv_auc = sum(cv_aucs) / len(cv_aucs)
-    # fit on full training set
+    # Fit on full training set
     pipeline.fit(X_train, y_train)
 
-    # test evaluation
+    # Test evaluation
     y_test_pred = pipeline.predict(X_test)
     y_test_proba = pipeline.predict_proba(X_test)[:, 1]
     test_auc = roc_auc_score(y_test, y_test_proba)
 
-    # ROC curve
+    # Plot ROC curve
     fpr, tpr, _ = roc_curve(y_test, y_test_proba)
     plt.plot(fpr, tpr, label=f'{name} (AUC={test_auc:.2f})')
 
@@ -85,7 +87,7 @@ for name, model in models.items():
     plt.title(f'Confusion Matrix - {name}')
     plt.show()
 
-    # classification report
+    # Classification report
     report = classification_report(y_test, y_test_pred)
 
     results[name] = {
@@ -95,7 +97,7 @@ for name, model in models.items():
         'Report': report
     }
 
-# finalize ROC plot
+# Finalize ROC plot
 plt.plot([0, 1], [0, 1], 'k--', label='Random')
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
@@ -145,16 +147,16 @@ def predict_home_win_from_abbr(home_abbr, away_abbr, pipeline=best_pipeline):
 # Example prediction
 # predict_home_win_from_abbr('ORL', 'SAS')
 
-eams = [
-    'Atlanta Hawks', 'Boston Celtics', 'Brooklyn Nets', 'Charlotte Hornets', 'Chicago Bulls',
-    'Cleveland Cavaliers', 'Dallas Mavericks', 'Denver Nuggets', 'Detroit Pistons',
-    'Golden State Warriors', 'Houston Rockets', 'Indiana Pacers', 'Los Angeles Clippers',
-    'Los Angeles Lakers', 'Memphis Grizzlies', 'Miami Heat', 'Milwaukee Bucks',
-    'Minnesota Timberwolves', 'New Orleans Pelicans', 'New York Knicks',
-    'Oklahoma City Thunder', 'Orlando Magic', 'Philadelphia 76ers', 'Phoenix Suns',
-    'Portland Trail Blazers', 'Sacramento Kings', 'San Antonio Spurs', 'Toronto Raptors',
-    'Utah Jazz', 'Washington Wizards'
-]
+# teams = [
+#     'Atlanta Hawks', 'Boston Celtics', 'Brooklyn Nets', 'Charlotte Hornets', 'Chicago Bulls',
+#     'Cleveland Cavaliers', 'Dallas Mavericks', 'Denver Nuggets', 'Detroit Pistons',
+#     'Golden State Warriors', 'Houston Rockets', 'Indiana Pacers', 'Los Angeles Clippers',
+#     'Los Angeles Lakers', 'Memphis Grizzlies', 'Miami Heat', 'Milwaukee Bucks',
+#     'Minnesota Timberwolves', 'New Orleans Pelicans', 'New York Knicks',
+#     'Oklahoma City Thunder', 'Orlando Magic', 'Philadelphia 76ers', 'Phoenix Suns',
+#     'Portland Trail Blazers', 'Sacramento Kings', 'San Antonio Spurs', 'Toronto Raptors',
+#     'Utah Jazz', 'Washington Wizards'
+# ]
 
 teams = [
     'ATL', 'BOS', 'BKN', 'CHA', 'CHI',
