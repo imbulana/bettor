@@ -69,7 +69,7 @@ python3 evaluator.py <model> <model_data.csv> <test_data.csv> <budget>
 
 #### Example
 
-Testing on 22-23 regular season games. The model is trained on games before January '23 and tested on games during January '23
+Testing on 22-23 regular season games. The model is trained on games before January '22 (21-22 regular season) and tested on games during January '23 (22 - 23 regular season).
 
 <img src="plots/percentage.png" width="800px"></img>
 <img src="plots/values.png" width="800px"></img>
