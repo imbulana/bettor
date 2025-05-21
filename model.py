@@ -15,7 +15,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 import pickle as pkl
 
-def load_and_prepare_data(csv_file='data/nba_22_23_pre_jan.csv'):
+def load_and_prepare_data(csv_file='data/21_22_pre_jan_data.csv'):
     """
     Loads and preprocesses the NBA game data.
 
