@@ -82,7 +82,11 @@ This will save a random forest model as a pickle file.
 Then run the evaluator with this trained model, along with betting odds data and a budget
 
 ```bash
-python3 evaluator.py random_forest_model.pkl data/21_22_pre_jan_data.csv data/22_23_jan_odds.csv 1000
+python3 evaluator.py \
+  random_forest_model.pkl \
+  data/21_22_pre_jan_data.csv \
+  data/22_23_jan_odds.csv \
+  1000
 
 ```
 
