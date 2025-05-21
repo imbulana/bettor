@@ -21,7 +21,7 @@ python3 -m pip install -r requirements.txt
 Train a model to obtain win probabilities for a given matchup with
 
 ```bash
-python3 <data.csv> model.py 
+python3 model.py <data.csv>
 ```
 
 This will save the model as a pickle file.
@@ -70,6 +70,23 @@ python3 evaluator.py <model> <model_data.csv> <test_data.csv> <budget>
 #### Example
 
 Testing on 22-23 regular season games. The model is trained on games before January '22 (21-22 regular season) and tested on games during January '23 (22 - 23 regular season).
+
+First obtain a trained model
+
+```bash
+python3 model.py data/21_22_pre_jan_data.csv
+```
+
+This will save a random forest model as a pickle file.
+
+Then run the evaluator with this trained model, along with betting odds data and a budget
+
+```bash
+python3 evaluator.py random_forest_model.pkl data/21_22_pre_jan_data.csv data/22_23_jan_odds.csv 1000
+
+```
+
+The following are the results
 
 <img src="plots/percentage.png" width="800px"></img>
 <img src="plots/values.png" width="800px"></img>
